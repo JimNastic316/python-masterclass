@@ -5,7 +5,7 @@ print(a + b)
 print(a - b)
 print(a * b)
 print(a / b)
-print(a // b)   #integer division, rounded down towards minus infinity
+print(a // b)
 print(a % b)
 
 print()
