@@ -18,8 +18,17 @@ print(type(age))
 #rebind value of variable "age"
 age_in_words = "Twenty Four"
 print(age)
-print(name + " is" + age + " years old") #won't work, can't concatonate strings with integers
+
+#won't work, can't concatonate strings with integers
+#print(name + " is" + age + " years old")
+
+print(name + f" is {age} years old") #will work, using f string
 print(type(age))
+
+print(f"Pi is approximately {22 / 7:12.50f}")
+
+pi = 22/7
+print(f"Pi is approximately {pi:12.50f}")
 
 
 
