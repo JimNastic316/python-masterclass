@@ -43,9 +43,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.guessingGame">
     <configuration name="blocks" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="FlowControl" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -67,8 +70,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="guessingGame" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="FlowControl" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/guessingGame.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.guessingGame" />
         <item itemvalue="Python.blocks" />
       </list>
     </recent_temporary>
@@ -94,31 +119,63 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="550" y="164" width="507" height="512" key="FileChooserDialogImpl" timestamp="1599673737910">
+    <state x="550" y="164" width="507" height="512" key="FileChooserDialogImpl" timestamp="1599765078432">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state x="550" y="164" width="507" height="512" key="FileChooserDialogImpl/0.0.1366.742@0.0.1366.742" timestamp="1599673737910" />
-    <state width="1320" height="563" key="GridCell.Tab.0.bottom" timestamp="1599677969528">
+    <state x="550" y="164" width="507" height="512" key="FileChooserDialogImpl/0.0.1366.742@0.0.1366.742" timestamp="1599765078432" />
+    <state width="1320" height="153" key="GridCell.Tab.0.bottom" timestamp="1599769278957">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state width="1320" height="563" key="GridCell.Tab.0.bottom/0.0.1366.742@0.0.1366.742" timestamp="1599677969528" />
-    <state width="1320" height="563" key="GridCell.Tab.0.center" timestamp="1599677969528">
+    <state width="1320" height="153" key="GridCell.Tab.0.bottom/0.0.1366.742@0.0.1366.742" timestamp="1599769278957" />
+    <state width="1320" height="153" key="GridCell.Tab.0.center" timestamp="1599769278956">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state width="1320" height="563" key="GridCell.Tab.0.center/0.0.1366.742@0.0.1366.742" timestamp="1599677969528" />
-    <state width="1320" height="563" key="GridCell.Tab.0.left" timestamp="1599677969527">
+    <state width="1320" height="153" key="GridCell.Tab.0.center/0.0.1366.742@0.0.1366.742" timestamp="1599769278956" />
+    <state width="1320" height="153" key="GridCell.Tab.0.left" timestamp="1599769278955">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state width="1320" height="563" key="GridCell.Tab.0.left/0.0.1366.742@0.0.1366.742" timestamp="1599677969527" />
-    <state width="1320" height="563" key="GridCell.Tab.0.right" timestamp="1599677969528">
+    <state width="1320" height="153" key="GridCell.Tab.0.left/0.0.1366.742@0.0.1366.742" timestamp="1599769278955" />
+    <state width="1320" height="153" key="GridCell.Tab.0.right" timestamp="1599769278956">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state width="1320" height="563" key="GridCell.Tab.0.right/0.0.1366.742@0.0.1366.742" timestamp="1599677969528" />
-    <state x="107" y="12" key="SettingsEditor" timestamp="1599673786308">
+    <state width="1320" height="153" key="GridCell.Tab.0.right/0.0.1366.742@0.0.1366.742" timestamp="1599769278956" />
+    <state width="860" height="211" key="GridCell.Tab.1.bottom" timestamp="1599765232557">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state x="107" y="12" key="SettingsEditor/0.0.1366.742@0.0.1366.742" timestamp="1599673786308" />
+    <state width="860" height="211" key="GridCell.Tab.1.bottom/0.0.1366.742@0.0.1366.742" timestamp="1599765232557" />
+    <state width="860" height="211" key="GridCell.Tab.1.center" timestamp="1599765232556">
+      <screen x="0" y="0" width="1366" height="742" />
+    </state>
+    <state width="860" height="211" key="GridCell.Tab.1.center/0.0.1366.742@0.0.1366.742" timestamp="1599765232556" />
+    <state width="860" height="211" key="GridCell.Tab.1.left" timestamp="1599765232556">
+      <screen x="0" y="0" width="1366" height="742" />
+    </state>
+    <state width="860" height="211" key="GridCell.Tab.1.left/0.0.1366.742@0.0.1366.742" timestamp="1599765232556" />
+    <state width="860" height="211" key="GridCell.Tab.1.right" timestamp="1599765232557">
+      <screen x="0" y="0" width="1366" height="742" />
+    </state>
+    <state width="860" height="211" key="GridCell.Tab.1.right/0.0.1366.742@0.0.1366.742" timestamp="1599765232557" />
+    <state x="152" y="3" width="1028" height="739" key="SettingsEditor" timestamp="1599768173955">
+      <screen x="0" y="0" width="1366" height="742" />
+    </state>
+    <state x="152" y="3" width="1028" height="739" key="SettingsEditor/0.0.1366.742@0.0.1366.742" timestamp="1599768173955" />
+    <state x="330" y="100" width="710" height="521" key="com.intellij.history.integration.ui.views.RecentChangeDialog" timestamp="1599765233081">
+      <screen x="0" y="0" width="1366" height="742" />
+    </state>
+    <state x="330" y="100" width="710" height="521" key="com.intellij.history.integration.ui.views.RecentChangeDialog/0.0.1366.742@0.0.1366.742" timestamp="1599765233081" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/guessingGame.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
