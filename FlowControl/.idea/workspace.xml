@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -46,10 +49,10 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
-  <component name="RunManager" selected="Python.guessingGame">
-    <configuration name="blocks" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.forloops">
+    <configuration name="checkingin" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="FlowControl" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -61,7 +64,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/blocks.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/checkingin.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -70,7 +73,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="guessingGame" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="forloops" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="FlowControl" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -82,7 +85,70 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/guessingGame.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/forloops.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ifchallenge" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="FlowControl" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ifchallenge.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="notin" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="FlowControl" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/notin.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="truefalse" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="FlowControl" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/truefalse.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -93,8 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.guessingGame" />
-        <item itemvalue="Python.blocks" />
+        <item itemvalue="Python.forloops" />
+        <item itemvalue="Python.ifchallenge" />
+        <item itemvalue="Python.notin" />
+        <item itemvalue="Python.checkingin" />
+        <item itemvalue="Python.truefalse" />
       </list>
     </recent_temporary>
   </component>
@@ -126,56 +195,49 @@
       <screen x="0" y="0" width="1366" height="742" />
     </state>
     <state x="550" y="164" width="507" height="512" key="FileChooserDialogImpl/0.0.1366.742@0.0.1366.742" timestamp="1599765078432" />
-    <state width="1320" height="153" key="GridCell.Tab.0.bottom" timestamp="1599769278957">
+    <state width="751" height="218" key="GridCell.Tab.0.bottom" timestamp="1599861855234">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state width="1320" height="153" key="GridCell.Tab.0.bottom/0.0.1366.742@0.0.1366.742" timestamp="1599769278957" />
-    <state width="1320" height="153" key="GridCell.Tab.0.center" timestamp="1599769278956">
+    <state width="751" height="218" key="GridCell.Tab.0.bottom/0.0.1366.742@0.0.1366.742" timestamp="1599861855234" />
+    <state width="751" height="218" key="GridCell.Tab.0.center" timestamp="1599861855232">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state width="1320" height="153" key="GridCell.Tab.0.center/0.0.1366.742@0.0.1366.742" timestamp="1599769278956" />
-    <state width="1320" height="153" key="GridCell.Tab.0.left" timestamp="1599769278955">
+    <state width="751" height="218" key="GridCell.Tab.0.center/0.0.1366.742@0.0.1366.742" timestamp="1599861855232" />
+    <state width="751" height="218" key="GridCell.Tab.0.left" timestamp="1599861855231">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state width="1320" height="153" key="GridCell.Tab.0.left/0.0.1366.742@0.0.1366.742" timestamp="1599769278955" />
-    <state width="1320" height="153" key="GridCell.Tab.0.right" timestamp="1599769278956">
+    <state width="751" height="218" key="GridCell.Tab.0.left/0.0.1366.742@0.0.1366.742" timestamp="1599861855231" />
+    <state width="751" height="218" key="GridCell.Tab.0.right" timestamp="1599861855233">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state width="1320" height="153" key="GridCell.Tab.0.right/0.0.1366.742@0.0.1366.742" timestamp="1599769278956" />
-    <state width="860" height="211" key="GridCell.Tab.1.bottom" timestamp="1599765232557">
+    <state width="751" height="218" key="GridCell.Tab.0.right/0.0.1366.742@0.0.1366.742" timestamp="1599861855233" />
+    <state width="751" height="218" key="GridCell.Tab.1.bottom" timestamp="1599861855244">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state width="860" height="211" key="GridCell.Tab.1.bottom/0.0.1366.742@0.0.1366.742" timestamp="1599765232557" />
-    <state width="860" height="211" key="GridCell.Tab.1.center" timestamp="1599765232556">
+    <state width="751" height="218" key="GridCell.Tab.1.bottom/0.0.1366.742@0.0.1366.742" timestamp="1599861855244" />
+    <state width="751" height="218" key="GridCell.Tab.1.center" timestamp="1599861855242">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state width="860" height="211" key="GridCell.Tab.1.center/0.0.1366.742@0.0.1366.742" timestamp="1599765232556" />
-    <state width="860" height="211" key="GridCell.Tab.1.left" timestamp="1599765232556">
+    <state width="751" height="218" key="GridCell.Tab.1.center/0.0.1366.742@0.0.1366.742" timestamp="1599861855242" />
+    <state width="751" height="218" key="GridCell.Tab.1.left" timestamp="1599861855241">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state width="860" height="211" key="GridCell.Tab.1.left/0.0.1366.742@0.0.1366.742" timestamp="1599765232556" />
-    <state width="860" height="211" key="GridCell.Tab.1.right" timestamp="1599765232557">
+    <state width="751" height="218" key="GridCell.Tab.1.left/0.0.1366.742@0.0.1366.742" timestamp="1599861855241" />
+    <state width="751" height="218" key="GridCell.Tab.1.right" timestamp="1599861855243">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state width="860" height="211" key="GridCell.Tab.1.right/0.0.1366.742@0.0.1366.742" timestamp="1599765232557" />
-    <state x="152" y="3" width="1028" height="739" key="SettingsEditor" timestamp="1599768173955">
+    <state width="751" height="218" key="GridCell.Tab.1.right/0.0.1366.742@0.0.1366.742" timestamp="1599861855243" />
+    <state x="152" y="3" width="1028" height="739" key="SettingsEditor" timestamp="1599775901298">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state x="152" y="3" width="1028" height="739" key="SettingsEditor/0.0.1366.742@0.0.1366.742" timestamp="1599768173955" />
+    <state x="152" y="3" width="1028" height="739" key="SettingsEditor/0.0.1366.742@0.0.1366.742" timestamp="1599775901298" />
     <state x="330" y="100" width="710" height="521" key="com.intellij.history.integration.ui.views.RecentChangeDialog" timestamp="1599765233081">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
     <state x="330" y="100" width="710" height="521" key="com.intellij.history.integration.ui.views.RecentChangeDialog/0.0.1366.742@0.0.1366.742" timestamp="1599765233081" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/guessingGame.py</url>
-          <line>4</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="628" y="63" width="672" height="678" key="search.everywhere.popup" timestamp="1599775877830">
+      <screen x="0" y="0" width="1366" height="742" />
+    </state>
+    <state x="628" y="63" width="672" height="678" key="search.everywhere.popup/0.0.1366.742@0.0.1366.742" timestamp="1599775877830" />
   </component>
 </project>
