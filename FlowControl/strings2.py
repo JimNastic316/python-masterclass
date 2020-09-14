@@ -1,4 +1,4 @@
-number ="9,223;372:036 854,775;807"
+number = input("Please enter a series of numbers, using any separator you like: ")
 separators = ""
 
 for char in number:
@@ -8,4 +8,4 @@ for char in number:
 print(separators)
 
 values = "".join(char if char not in separators else " "  for char in number).split()
-print([int(val) for val in values])
+print(sum([int(val) for val in values]))

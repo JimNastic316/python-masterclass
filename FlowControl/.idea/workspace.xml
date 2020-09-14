@@ -51,8 +51,8 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
-  <component name="RunManager" selected="Python.forloops">
-    <configuration name="checkingin" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.ranges">
+    <configuration name="extractingCapitals" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="FlowControl" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -64,7 +64,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/checkingin.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/extractingCapitals.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -115,7 +115,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="notin" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="ranges" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="FlowControl" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -127,7 +127,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/notin.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ranges.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -136,7 +136,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="truefalse" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="strings2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="FlowControl" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -148,7 +148,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/truefalse.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/strings2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -159,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ranges" />
+        <item itemvalue="Python.extractingCapitals" />
+        <item itemvalue="Python.strings2" />
         <item itemvalue="Python.forloops" />
         <item itemvalue="Python.ifchallenge" />
-        <item itemvalue="Python.notin" />
-        <item itemvalue="Python.checkingin" />
-        <item itemvalue="Python.truefalse" />
       </list>
     </recent_temporary>
   </component>
@@ -195,22 +195,22 @@
       <screen x="0" y="0" width="1366" height="742" />
     </state>
     <state x="550" y="164" width="507" height="512" key="FileChooserDialogImpl/0.0.1366.742@0.0.1366.742" timestamp="1600084289163" />
-    <state width="751" height="218" key="GridCell.Tab.0.bottom" timestamp="1599861855234">
+    <state width="751" height="153" key="GridCell.Tab.0.bottom" timestamp="1600096765425">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state width="751" height="218" key="GridCell.Tab.0.bottom/0.0.1366.742@0.0.1366.742" timestamp="1599861855234" />
-    <state width="751" height="218" key="GridCell.Tab.0.center" timestamp="1599861855232">
+    <state width="751" height="153" key="GridCell.Tab.0.bottom/0.0.1366.742@0.0.1366.742" timestamp="1600096765425" />
+    <state width="751" height="153" key="GridCell.Tab.0.center" timestamp="1600096765424">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state width="751" height="218" key="GridCell.Tab.0.center/0.0.1366.742@0.0.1366.742" timestamp="1599861855232" />
-    <state width="751" height="218" key="GridCell.Tab.0.left" timestamp="1599861855231">
+    <state width="751" height="153" key="GridCell.Tab.0.center/0.0.1366.742@0.0.1366.742" timestamp="1600096765424" />
+    <state width="751" height="153" key="GridCell.Tab.0.left" timestamp="1600096765421">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state width="751" height="218" key="GridCell.Tab.0.left/0.0.1366.742@0.0.1366.742" timestamp="1599861855231" />
-    <state width="751" height="218" key="GridCell.Tab.0.right" timestamp="1599861855233">
+    <state width="751" height="153" key="GridCell.Tab.0.left/0.0.1366.742@0.0.1366.742" timestamp="1600096765421" />
+    <state width="751" height="153" key="GridCell.Tab.0.right" timestamp="1600096765424">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state width="751" height="218" key="GridCell.Tab.0.right/0.0.1366.742@0.0.1366.742" timestamp="1599861855233" />
+    <state width="751" height="153" key="GridCell.Tab.0.right/0.0.1366.742@0.0.1366.742" timestamp="1600096765424" />
     <state width="751" height="218" key="GridCell.Tab.1.bottom" timestamp="1599861855244">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
