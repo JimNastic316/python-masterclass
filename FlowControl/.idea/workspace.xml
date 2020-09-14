@@ -46,75 +46,13 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../HelloWorld" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
-  <component name="RunManager" selected="Python.ranges">
-    <configuration name="extractingCapitals" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="FlowControl" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/extractingCapitals.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="forloops" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="FlowControl" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/forloops.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ifchallenge" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="FlowControl" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ifchallenge.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.whileloop">
     <configuration name="ranges" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="FlowControl" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -136,7 +74,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="strings2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="searching" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="FlowControl" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -148,7 +86,70 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/strings2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/searching.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="shopping" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="FlowControl" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/shopping.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="timestables" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="FlowControl" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/timestables.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="whileloop" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="FlowControl" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/whileloop.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -159,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.whileloop" />
+        <item itemvalue="Python.searching" />
+        <item itemvalue="Python.shopping" />
+        <item itemvalue="Python.timestables" />
         <item itemvalue="Python.ranges" />
-        <item itemvalue="Python.extractingCapitals" />
-        <item itemvalue="Python.strings2" />
-        <item itemvalue="Python.forloops" />
-        <item itemvalue="Python.ifchallenge" />
       </list>
     </recent_temporary>
   </component>
@@ -191,42 +192,42 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="550" y="164" width="507" height="512" key="FileChooserDialogImpl" timestamp="1600084289163">
+    <state x="550" y="164" width="507" height="512" key="FileChooserDialogImpl" timestamp="1600104128116">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state x="550" y="164" width="507" height="512" key="FileChooserDialogImpl/0.0.1366.742@0.0.1366.742" timestamp="1600084289163" />
-    <state width="751" height="153" key="GridCell.Tab.0.bottom" timestamp="1600096765425">
+    <state x="550" y="164" width="507" height="512" key="FileChooserDialogImpl/0.0.1366.742@0.0.1366.742" timestamp="1600104128116" />
+    <state width="751" height="218" key="GridCell.Tab.0.bottom" timestamp="1600111874197">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state width="751" height="153" key="GridCell.Tab.0.bottom/0.0.1366.742@0.0.1366.742" timestamp="1600096765425" />
-    <state width="751" height="153" key="GridCell.Tab.0.center" timestamp="1600096765424">
+    <state width="751" height="218" key="GridCell.Tab.0.bottom/0.0.1366.742@0.0.1366.742" timestamp="1600111874197" />
+    <state width="751" height="218" key="GridCell.Tab.0.center" timestamp="1600111874196">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state width="751" height="153" key="GridCell.Tab.0.center/0.0.1366.742@0.0.1366.742" timestamp="1600096765424" />
-    <state width="751" height="153" key="GridCell.Tab.0.left" timestamp="1600096765421">
+    <state width="751" height="218" key="GridCell.Tab.0.center/0.0.1366.742@0.0.1366.742" timestamp="1600111874196" />
+    <state width="751" height="218" key="GridCell.Tab.0.left" timestamp="1600111874196">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state width="751" height="153" key="GridCell.Tab.0.left/0.0.1366.742@0.0.1366.742" timestamp="1600096765421" />
-    <state width="751" height="153" key="GridCell.Tab.0.right" timestamp="1600096765424">
+    <state width="751" height="218" key="GridCell.Tab.0.left/0.0.1366.742@0.0.1366.742" timestamp="1600111874196" />
+    <state width="751" height="218" key="GridCell.Tab.0.right" timestamp="1600111874197">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state width="751" height="153" key="GridCell.Tab.0.right/0.0.1366.742@0.0.1366.742" timestamp="1600096765424" />
-    <state width="751" height="218" key="GridCell.Tab.1.bottom" timestamp="1599861855244">
+    <state width="751" height="218" key="GridCell.Tab.0.right/0.0.1366.742@0.0.1366.742" timestamp="1600111874197" />
+    <state width="751" height="218" key="GridCell.Tab.1.bottom" timestamp="1600111874198">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state width="751" height="218" key="GridCell.Tab.1.bottom/0.0.1366.742@0.0.1366.742" timestamp="1599861855244" />
-    <state width="751" height="218" key="GridCell.Tab.1.center" timestamp="1599861855242">
+    <state width="751" height="218" key="GridCell.Tab.1.bottom/0.0.1366.742@0.0.1366.742" timestamp="1600111874198" />
+    <state width="751" height="218" key="GridCell.Tab.1.center" timestamp="1600111874198">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state width="751" height="218" key="GridCell.Tab.1.center/0.0.1366.742@0.0.1366.742" timestamp="1599861855242" />
-    <state width="751" height="218" key="GridCell.Tab.1.left" timestamp="1599861855241">
+    <state width="751" height="218" key="GridCell.Tab.1.center/0.0.1366.742@0.0.1366.742" timestamp="1600111874198" />
+    <state width="751" height="218" key="GridCell.Tab.1.left" timestamp="1600111874197">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state width="751" height="218" key="GridCell.Tab.1.left/0.0.1366.742@0.0.1366.742" timestamp="1599861855241" />
-    <state width="751" height="218" key="GridCell.Tab.1.right" timestamp="1599861855243">
+    <state width="751" height="218" key="GridCell.Tab.1.left/0.0.1366.742@0.0.1366.742" timestamp="1600111874197" />
+    <state width="751" height="218" key="GridCell.Tab.1.right" timestamp="1600111874198">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state width="751" height="218" key="GridCell.Tab.1.right/0.0.1366.742@0.0.1366.742" timestamp="1599861855243" />
+    <state width="751" height="218" key="GridCell.Tab.1.right/0.0.1366.742@0.0.1366.742" timestamp="1600111874198" />
     <state x="152" y="3" width="1028" height="739" key="SettingsEditor" timestamp="1599775901298">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
@@ -239,5 +240,16 @@
       <screen x="0" y="0" width="1366" height="742" />
     </state>
     <state x="628" y="63" width="672" height="678" key="search.everywhere.popup/0.0.1366.742@0.0.1366.742" timestamp="1599775877830" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/searching.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
