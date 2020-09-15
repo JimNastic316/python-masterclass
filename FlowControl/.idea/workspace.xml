@@ -52,8 +52,8 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
-  <component name="RunManager" selected="Python.whileloop">
-    <configuration name="ranges" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.guessingGame">
+    <configuration name="adventure" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="FlowControl" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -65,7 +65,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ranges.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/adventure.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -74,7 +74,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="searching" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="break_mini_challenge" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="FlowControl" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -86,7 +86,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/searching.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/break_mini_challenge.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -95,7 +95,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="shopping" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="continue_mini_challenge" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="FlowControl" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -107,7 +107,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/shopping.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/continue_mini_challenge.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -116,7 +116,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="timestables" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="guessingGame" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="FlowControl" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -128,7 +128,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/timestables.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/guessingGame.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -160,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.guessingGame" />
+        <item itemvalue="Python.continue_mini_challenge" />
+        <item itemvalue="Python.break_mini_challenge" />
+        <item itemvalue="Python.adventure" />
         <item itemvalue="Python.whileloop" />
-        <item itemvalue="Python.searching" />
-        <item itemvalue="Python.shopping" />
-        <item itemvalue="Python.timestables" />
-        <item itemvalue="Python.ranges" />
       </list>
     </recent_temporary>
   </component>
@@ -196,22 +196,22 @@
       <screen x="0" y="0" width="1366" height="742" />
     </state>
     <state x="550" y="164" width="507" height="512" key="FileChooserDialogImpl/0.0.1366.742@0.0.1366.742" timestamp="1600104128116" />
-    <state width="751" height="218" key="GridCell.Tab.0.bottom" timestamp="1600111874197">
+    <state width="751" height="175" key="GridCell.Tab.0.bottom" timestamp="1600197445394">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state width="751" height="218" key="GridCell.Tab.0.bottom/0.0.1366.742@0.0.1366.742" timestamp="1600111874197" />
-    <state width="751" height="218" key="GridCell.Tab.0.center" timestamp="1600111874196">
+    <state width="751" height="175" key="GridCell.Tab.0.bottom/0.0.1366.742@0.0.1366.742" timestamp="1600197445394" />
+    <state width="751" height="175" key="GridCell.Tab.0.center" timestamp="1600197445394">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state width="751" height="218" key="GridCell.Tab.0.center/0.0.1366.742@0.0.1366.742" timestamp="1600111874196" />
-    <state width="751" height="218" key="GridCell.Tab.0.left" timestamp="1600111874196">
+    <state width="751" height="175" key="GridCell.Tab.0.center/0.0.1366.742@0.0.1366.742" timestamp="1600197445394" />
+    <state width="751" height="175" key="GridCell.Tab.0.left" timestamp="1600197445393">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state width="751" height="218" key="GridCell.Tab.0.left/0.0.1366.742@0.0.1366.742" timestamp="1600111874196" />
-    <state width="751" height="218" key="GridCell.Tab.0.right" timestamp="1600111874197">
+    <state width="751" height="175" key="GridCell.Tab.0.left/0.0.1366.742@0.0.1366.742" timestamp="1600197445393" />
+    <state width="751" height="175" key="GridCell.Tab.0.right" timestamp="1600197445394">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state width="751" height="218" key="GridCell.Tab.0.right/0.0.1366.742@0.0.1366.742" timestamp="1600111874197" />
+    <state width="751" height="175" key="GridCell.Tab.0.right/0.0.1366.742@0.0.1366.742" timestamp="1600197445394" />
     <state width="751" height="218" key="GridCell.Tab.1.bottom" timestamp="1600111874198">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
