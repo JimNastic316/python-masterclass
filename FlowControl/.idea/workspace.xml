@@ -50,10 +50,10 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.general" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
-  <component name="RunManager" selected="Python.aa">
-    <configuration name="aa" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.simple_menu">
+    <configuration name="adventure" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="FlowControl" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -65,7 +65,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/aa.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/adventure.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -74,7 +74,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="continue_mini_challenge" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="contrived" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="FlowControl" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -86,7 +86,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/continue_mini_challenge.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/contrived.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -95,7 +95,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="guessingGame" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="escapechar" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="FlowControl" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -107,9 +107,9 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/guessingGame.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/escapechar.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -137,7 +137,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="whileloop" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="simple_menu" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="FlowControl" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -149,7 +149,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/whileloop.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/simple_menu.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -160,8 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.aa" />
+        <item itemvalue="Python.simple_menu" />
+        <item itemvalue="Python.adventure" />
         <item itemvalue="Python.hilo" />
+        <item itemvalue="Python.contrived" />
+        <item itemvalue="Python.escapechar" />
       </list>
     </recent_temporary>
   </component>
@@ -189,57 +192,77 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="312" y="53" width="736" height="634" key="#Inspections" timestamp="1600286189961">
+    <state x="312" y="53" width="736" height="634" key="#Inspections" timestamp="1600451112181">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state x="312" y="53" width="736" height="634" key="#Inspections/0.0.1366.742@0.0.1366.742" timestamp="1600286189961" />
+    <state x="312" y="53" width="736" height="634" key="#Inspections/0.0.1366.742@0.0.1366.742" timestamp="1600451112181" />
     <state x="550" y="164" width="507" height="512" key="FileChooserDialogImpl" timestamp="1600104128116">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
     <state x="550" y="164" width="507" height="512" key="FileChooserDialogImpl/0.0.1366.742@0.0.1366.742" timestamp="1600104128116" />
-    <state width="820" height="206" key="GridCell.Tab.0.bottom" timestamp="1600292047656">
+    <state width="829" height="259" key="GridCell.Tab.0.bottom" timestamp="1600452365612">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state width="820" height="206" key="GridCell.Tab.0.bottom/0.0.1366.742@0.0.1366.742" timestamp="1600292047656" />
-    <state width="820" height="206" key="GridCell.Tab.0.center" timestamp="1600292047656">
+    <state width="829" height="259" key="GridCell.Tab.0.bottom/0.0.1366.742@0.0.1366.742" timestamp="1600452365612" />
+    <state width="829" height="259" key="GridCell.Tab.0.center" timestamp="1600452365611">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state width="820" height="206" key="GridCell.Tab.0.center/0.0.1366.742@0.0.1366.742" timestamp="1600292047656" />
-    <state width="820" height="206" key="GridCell.Tab.0.left" timestamp="1600292047655">
+    <state width="829" height="259" key="GridCell.Tab.0.center/0.0.1366.742@0.0.1366.742" timestamp="1600452365611" />
+    <state width="829" height="259" key="GridCell.Tab.0.left" timestamp="1600452365611">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state width="820" height="206" key="GridCell.Tab.0.left/0.0.1366.742@0.0.1366.742" timestamp="1600292047655" />
-    <state width="820" height="206" key="GridCell.Tab.0.right" timestamp="1600292047656">
+    <state width="829" height="259" key="GridCell.Tab.0.left/0.0.1366.742@0.0.1366.742" timestamp="1600452365611" />
+    <state width="829" height="259" key="GridCell.Tab.0.right" timestamp="1600452365612">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state width="820" height="206" key="GridCell.Tab.0.right/0.0.1366.742@0.0.1366.742" timestamp="1600292047656" />
-    <state width="751" height="218" key="GridCell.Tab.1.bottom" timestamp="1600111874198">
+    <state width="829" height="259" key="GridCell.Tab.0.right/0.0.1366.742@0.0.1366.742" timestamp="1600452365612" />
+    <state width="1320" height="220" key="GridCell.Tab.1.bottom" timestamp="1600373868707">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state width="751" height="218" key="GridCell.Tab.1.bottom/0.0.1366.742@0.0.1366.742" timestamp="1600111874198" />
-    <state width="751" height="218" key="GridCell.Tab.1.center" timestamp="1600111874198">
+    <state width="1320" height="220" key="GridCell.Tab.1.bottom/0.0.1366.742@0.0.1366.742" timestamp="1600373868707" />
+    <state width="1320" height="220" key="GridCell.Tab.1.center" timestamp="1600373868706">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state width="751" height="218" key="GridCell.Tab.1.center/0.0.1366.742@0.0.1366.742" timestamp="1600111874198" />
-    <state width="751" height="218" key="GridCell.Tab.1.left" timestamp="1600111874197">
+    <state width="1320" height="220" key="GridCell.Tab.1.center/0.0.1366.742@0.0.1366.742" timestamp="1600373868706" />
+    <state width="1320" height="220" key="GridCell.Tab.1.left" timestamp="1600373868706">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state width="751" height="218" key="GridCell.Tab.1.left/0.0.1366.742@0.0.1366.742" timestamp="1600111874197" />
-    <state width="751" height="218" key="GridCell.Tab.1.right" timestamp="1600111874198">
+    <state width="1320" height="220" key="GridCell.Tab.1.left/0.0.1366.742@0.0.1366.742" timestamp="1600373868706" />
+    <state width="1320" height="220" key="GridCell.Tab.1.right" timestamp="1600373868706">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state width="751" height="218" key="GridCell.Tab.1.right/0.0.1366.742@0.0.1366.742" timestamp="1600111874198" />
-    <state x="152" y="3" width="1028" height="739" key="SettingsEditor" timestamp="1599775901298">
+    <state width="1320" height="220" key="GridCell.Tab.1.right/0.0.1366.742@0.0.1366.742" timestamp="1600373868706" />
+    <state x="206" y="0" width="904" height="727" key="SettingsEditor" timestamp="1600355575247">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state x="152" y="3" width="1028" height="739" key="SettingsEditor/0.0.1366.742@0.0.1366.742" timestamp="1599775901298" />
+    <state x="206" y="0" width="904" height="727" key="SettingsEditor/0.0.1366.742@0.0.1366.742" timestamp="1600355575247" />
     <state x="330" y="100" width="710" height="521" key="com.intellij.history.integration.ui.views.RecentChangeDialog" timestamp="1599765233081">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
     <state x="330" y="100" width="710" height="521" key="com.intellij.history.integration.ui.views.RecentChangeDialog/0.0.1366.742@0.0.1366.742" timestamp="1599765233081" />
+    <state x="350" y="165" key="run.anything.popup" timestamp="1600443370116">
+      <screen x="0" y="0" width="1366" height="742" />
+    </state>
+    <state x="350" y="165" key="run.anything.popup/0.0.1366.742@0.0.1366.742" timestamp="1600443370116" />
     <state x="628" y="63" width="672" height="678" key="search.everywhere.popup" timestamp="1599775877830">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
     <state x="628" y="63" width="672" height="678" key="search.everywhere.popup/0.0.1366.742@0.0.1366.742" timestamp="1599775877830" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/simple_menu.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/simple_menu.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
