@@ -52,7 +52,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
-  <component name="RunManager" selected="Python.simple_menu">
+  <component name="RunManager" selected="Python.quiz">
     <configuration name="adventure" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="FlowControl" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -95,27 +95,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="escapechar" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="FlowControl" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/escapechar.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="hilo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="FlowControl" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -129,6 +108,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hilo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="quiz" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="FlowControl" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/quiz.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -160,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.quiz" />
         <item itemvalue="Python.simple_menu" />
         <item itemvalue="Python.adventure" />
         <item itemvalue="Python.hilo" />
         <item itemvalue="Python.contrived" />
-        <item itemvalue="Python.escapechar" />
       </list>
     </recent_temporary>
   </component>
@@ -200,22 +200,22 @@
       <screen x="0" y="0" width="1366" height="742" />
     </state>
     <state x="550" y="164" width="507" height="512" key="FileChooserDialogImpl/0.0.1366.742@0.0.1366.742" timestamp="1600104128116" />
-    <state width="829" height="259" key="GridCell.Tab.0.bottom" timestamp="1600452365612">
+    <state width="1320" height="258" key="GridCell.Tab.0.bottom" timestamp="1600709507724">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state width="829" height="259" key="GridCell.Tab.0.bottom/0.0.1366.742@0.0.1366.742" timestamp="1600452365612" />
-    <state width="829" height="259" key="GridCell.Tab.0.center" timestamp="1600452365611">
+    <state width="1320" height="258" key="GridCell.Tab.0.bottom/0.0.1366.742@0.0.1366.742" timestamp="1600709507724" />
+    <state width="1320" height="258" key="GridCell.Tab.0.center" timestamp="1600709507723">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state width="829" height="259" key="GridCell.Tab.0.center/0.0.1366.742@0.0.1366.742" timestamp="1600452365611" />
-    <state width="829" height="259" key="GridCell.Tab.0.left" timestamp="1600452365611">
+    <state width="1320" height="258" key="GridCell.Tab.0.center/0.0.1366.742@0.0.1366.742" timestamp="1600709507723" />
+    <state width="1320" height="258" key="GridCell.Tab.0.left" timestamp="1600709507722">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state width="829" height="259" key="GridCell.Tab.0.left/0.0.1366.742@0.0.1366.742" timestamp="1600452365611" />
-    <state width="829" height="259" key="GridCell.Tab.0.right" timestamp="1600452365612">
+    <state width="1320" height="258" key="GridCell.Tab.0.left/0.0.1366.742@0.0.1366.742" timestamp="1600709507722" />
+    <state width="1320" height="258" key="GridCell.Tab.0.right" timestamp="1600709507724">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state width="829" height="259" key="GridCell.Tab.0.right/0.0.1366.742@0.0.1366.742" timestamp="1600452365612" />
+    <state width="1320" height="258" key="GridCell.Tab.0.right/0.0.1366.742@0.0.1366.742" timestamp="1600709507724" />
     <state width="1320" height="220" key="GridCell.Tab.1.bottom" timestamp="1600373868707">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
@@ -240,6 +240,10 @@
       <screen x="0" y="0" width="1366" height="742" />
     </state>
     <state x="330" y="100" width="710" height="521" key="com.intellij.history.integration.ui.views.RecentChangeDialog/0.0.1366.742@0.0.1366.742" timestamp="1599765233081" />
+    <state x="277" y="76" width="806" height="589" key="new project wizard" timestamp="1600709480045">
+      <screen x="0" y="0" width="1366" height="742" />
+    </state>
+    <state x="277" y="76" width="806" height="589" key="new project wizard/0.0.1366.742@0.0.1366.742" timestamp="1600709480045" />
     <state x="350" y="165" key="run.anything.popup" timestamp="1600443370116">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
