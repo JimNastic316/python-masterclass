@@ -45,8 +45,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
   </component>
-  <component name="RunManager" selected="Python.buy_computer">
-    <configuration name="buy_comp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.sorted_number_lists">
+    <configuration name="adding_items_to_list_code_exercise13" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Sequences" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -58,7 +58,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/buy_comp.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/adding_items_to_list_code_exercise13.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -88,7 +88,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="immutable" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="enumerate_example" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Sequences" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -100,7 +100,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/immutable.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/enumerate_example.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -109,7 +109,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="mutable" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="number_lists" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Sequences" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -121,7 +121,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mutable.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/number_lists.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sorted_number_lists" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Sequences" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sorted_number_lists.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -132,10 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.sorted_number_lists" />
         <item itemvalue="Python.buy_computer" />
-        <item itemvalue="Python.buy_comp" />
-        <item itemvalue="Python.mutable" />
-        <item itemvalue="Python.immutable" />
+        <item itemvalue="Python.adding_items_to_list_code_exercise13" />
+        <item itemvalue="Python.number_lists" />
+        <item itemvalue="Python.enumerate_example" />
       </list>
     </recent_temporary>
   </component>
@@ -163,22 +185,22 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1320" height="128" key="GridCell.Tab.0.bottom" timestamp="1600790763711">
+    <state width="792" height="202" key="GridCell.Tab.0.bottom" timestamp="1600889481503">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state width="1320" height="128" key="GridCell.Tab.0.bottom/0.0.1366.742@0.0.1366.742" timestamp="1600790763711" />
-    <state width="1320" height="128" key="GridCell.Tab.0.center" timestamp="1600790763709">
+    <state width="792" height="202" key="GridCell.Tab.0.bottom/0.0.1366.742@0.0.1366.742" timestamp="1600889481503" />
+    <state width="792" height="202" key="GridCell.Tab.0.center" timestamp="1600889481499">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state width="1320" height="128" key="GridCell.Tab.0.center/0.0.1366.742@0.0.1366.742" timestamp="1600790763709" />
-    <state width="1320" height="128" key="GridCell.Tab.0.left" timestamp="1600790763708">
+    <state width="792" height="202" key="GridCell.Tab.0.center/0.0.1366.742@0.0.1366.742" timestamp="1600889481499" />
+    <state width="792" height="202" key="GridCell.Tab.0.left" timestamp="1600889481494">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state width="1320" height="128" key="GridCell.Tab.0.left/0.0.1366.742@0.0.1366.742" timestamp="1600790763708" />
-    <state width="1320" height="128" key="GridCell.Tab.0.right" timestamp="1600790763710">
+    <state width="792" height="202" key="GridCell.Tab.0.left/0.0.1366.742@0.0.1366.742" timestamp="1600889481494" />
+    <state width="792" height="202" key="GridCell.Tab.0.right" timestamp="1600889481500">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state width="1320" height="128" key="GridCell.Tab.0.right/0.0.1366.742@0.0.1366.742" timestamp="1600790763710" />
+    <state width="792" height="202" key="GridCell.Tab.0.right/0.0.1366.742@0.0.1366.742" timestamp="1600889481500" />
     <state width="896" height="218" key="GridCell.Tab.1.bottom" timestamp="1600782182771">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
@@ -201,7 +223,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/buy_computer.py</url>
-          <line>9</line>
+          <line>14</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
