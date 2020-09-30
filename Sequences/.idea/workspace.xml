@@ -45,49 +45,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
   </component>
-  <component name="RunManager" selected="Python.creating_lists">
-    <configuration name="adding_items_to_list_code_exercise13" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Sequences" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/adding_items_to_list_code_exercise13.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="buy_computer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Sequences" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/buy_computer.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.outliers">
     <configuration name="creating_lists" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Sequences" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -109,7 +67,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="sorted_number_lists" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="enumerate_example" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Sequences" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -121,7 +79,49 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sorted_number_lists.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/enumerate_example.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="lists_intro" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Sequences" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lists_intro.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="outliers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Sequences" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/outliers.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -153,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.outliers" />
+        <item itemvalue="Python.enumerate_example" />
+        <item itemvalue="Python.lists_intro" />
         <item itemvalue="Python.creating_lists" />
         <item itemvalue="Python.sorting" />
-        <item itemvalue="Python.sorted_number_lists" />
-        <item itemvalue="Python.buy_computer" />
-        <item itemvalue="Python.adding_items_to_list_code_exercise13" />
       </list>
     </recent_temporary>
   </component>
@@ -185,38 +185,38 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="792" height="202" key="GridCell.Tab.0.bottom" timestamp="1601394087449">
+    <state width="756" height="295" key="GridCell.Tab.0.bottom" timestamp="1601496885850">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state width="792" height="202" key="GridCell.Tab.0.bottom/0.0.1366.742@0.0.1366.742" timestamp="1601394087449" />
-    <state width="792" height="202" key="GridCell.Tab.0.center" timestamp="1601394087443">
+    <state width="756" height="295" key="GridCell.Tab.0.bottom/0.0.1366.742@0.0.1366.742" timestamp="1601496885849" />
+    <state width="756" height="295" key="GridCell.Tab.0.center" timestamp="1601496885840">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state width="792" height="202" key="GridCell.Tab.0.center/0.0.1366.742@0.0.1366.742" timestamp="1601394087443" />
-    <state width="792" height="202" key="GridCell.Tab.0.left" timestamp="1601394087440">
+    <state width="756" height="295" key="GridCell.Tab.0.center/0.0.1366.742@0.0.1366.742" timestamp="1601496885840" />
+    <state width="756" height="295" key="GridCell.Tab.0.left" timestamp="1601496885832">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state width="792" height="202" key="GridCell.Tab.0.left/0.0.1366.742@0.0.1366.742" timestamp="1601394087440" />
-    <state width="792" height="202" key="GridCell.Tab.0.right" timestamp="1601394087448">
+    <state width="756" height="295" key="GridCell.Tab.0.left/0.0.1366.742@0.0.1366.742" timestamp="1601496885832" />
+    <state width="756" height="295" key="GridCell.Tab.0.right" timestamp="1601496885841">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state width="792" height="202" key="GridCell.Tab.0.right/0.0.1366.742@0.0.1366.742" timestamp="1601394087448" />
-    <state width="896" height="218" key="GridCell.Tab.1.bottom" timestamp="1600782182771">
+    <state width="756" height="295" key="GridCell.Tab.0.right/0.0.1366.742@0.0.1366.742" timestamp="1601496885841" />
+    <state width="1320" height="218" key="GridCell.Tab.1.bottom" timestamp="1601492001499">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state width="896" height="218" key="GridCell.Tab.1.bottom/0.0.1366.742@0.0.1366.742" timestamp="1600782182771" />
-    <state width="896" height="218" key="GridCell.Tab.1.center" timestamp="1600782182770">
+    <state width="1320" height="218" key="GridCell.Tab.1.bottom/0.0.1366.742@0.0.1366.742" timestamp="1601492001499" />
+    <state width="1320" height="218" key="GridCell.Tab.1.center" timestamp="1601492001484">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state width="896" height="218" key="GridCell.Tab.1.center/0.0.1366.742@0.0.1366.742" timestamp="1600782182770" />
-    <state width="896" height="218" key="GridCell.Tab.1.left" timestamp="1600782182770">
+    <state width="1320" height="218" key="GridCell.Tab.1.center/0.0.1366.742@0.0.1366.742" timestamp="1601492001484" />
+    <state width="1320" height="218" key="GridCell.Tab.1.left" timestamp="1601492001483">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state width="896" height="218" key="GridCell.Tab.1.left/0.0.1366.742@0.0.1366.742" timestamp="1600782182770" />
-    <state width="896" height="218" key="GridCell.Tab.1.right" timestamp="1600782182770">
+    <state width="1320" height="218" key="GridCell.Tab.1.left/0.0.1366.742@0.0.1366.742" timestamp="1601492001483" />
+    <state width="1320" height="218" key="GridCell.Tab.1.right" timestamp="1601492001493">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state width="896" height="218" key="GridCell.Tab.1.right/0.0.1366.742@0.0.1366.742" timestamp="1600782182770" />
+    <state width="1320" height="218" key="GridCell.Tab.1.right/0.0.1366.742@0.0.1366.742" timestamp="1601492001493" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -225,6 +225,11 @@
           <url>file://$PROJECT_DIR$/buy_computer.py</url>
           <line>14</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/outliers.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
