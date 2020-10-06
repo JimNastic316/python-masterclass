@@ -45,7 +45,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
   </component>
-  <component name="RunManager" selected="Python.timing_delete">
+  <component name="RunManager" selected="Python.number_lists">
     <configuration name="enumerate_example" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Sequences" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -88,7 +88,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="lists_intro" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="number_lists" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Sequences" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -100,7 +100,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lists_intro.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/number_lists.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -154,10 +154,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.timing_delete" />
-        <item itemvalue="Python.gobackwards" />
         <item itemvalue="Python.outliers" />
+        <item itemvalue="Python.number_lists" />
+        <item itemvalue="Python.gobackwards" />
         <item itemvalue="Python.enumerate_example" />
-        <item itemvalue="Python.lists_intro" />
       </list>
     </recent_temporary>
   </component>
@@ -189,22 +189,22 @@
       <screen x="0" y="0" width="1366" height="742" />
     </state>
     <state x="746" y="129" width="428" height="481" key="FileChooserDialogImpl/0.0.1366.742@0.0.1366.742" timestamp="1601928280361" />
-    <state width="756" height="235" key="GridCell.Tab.0.bottom" timestamp="1601929495705">
+    <state width="756" height="235" key="GridCell.Tab.0.bottom" timestamp="1602012791331">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state width="756" height="235" key="GridCell.Tab.0.bottom/0.0.1366.742@0.0.1366.742" timestamp="1601929495705" />
-    <state width="756" height="235" key="GridCell.Tab.0.center" timestamp="1601929495703">
+    <state width="756" height="235" key="GridCell.Tab.0.bottom/0.0.1366.742@0.0.1366.742" timestamp="1602012791331" />
+    <state width="756" height="235" key="GridCell.Tab.0.center" timestamp="1602012791330">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state width="756" height="235" key="GridCell.Tab.0.center/0.0.1366.742@0.0.1366.742" timestamp="1601929495703" />
-    <state width="756" height="235" key="GridCell.Tab.0.left" timestamp="1601929495703">
+    <state width="756" height="235" key="GridCell.Tab.0.center/0.0.1366.742@0.0.1366.742" timestamp="1602012791330" />
+    <state width="756" height="235" key="GridCell.Tab.0.left" timestamp="1602012791329">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state width="756" height="235" key="GridCell.Tab.0.left/0.0.1366.742@0.0.1366.742" timestamp="1601929495703" />
-    <state width="756" height="235" key="GridCell.Tab.0.right" timestamp="1601929495705">
+    <state width="756" height="235" key="GridCell.Tab.0.left/0.0.1366.742@0.0.1366.742" timestamp="1602012791329" />
+    <state width="756" height="235" key="GridCell.Tab.0.right" timestamp="1602012791330">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state width="756" height="235" key="GridCell.Tab.0.right/0.0.1366.742@0.0.1366.742" timestamp="1601929495705" />
+    <state width="756" height="235" key="GridCell.Tab.0.right/0.0.1366.742@0.0.1366.742" timestamp="1602012791330" />
     <state width="1320" height="218" key="GridCell.Tab.1.bottom" timestamp="1601492001499">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
