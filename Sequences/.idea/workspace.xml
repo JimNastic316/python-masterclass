@@ -45,8 +45,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
   </component>
-  <component name="RunManager" selected="Python.number_lists">
-    <configuration name="enumerate_example" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.nospam">
+    <configuration name="moreprint" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Sequences" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -58,7 +58,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/enumerate_example.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/moreprint.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -67,7 +67,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="gobackwards" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="nospam" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Sequences" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -79,28 +79,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gobackwards.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="number_lists" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Sequences" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/number_lists.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nospam.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -130,6 +109,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="spam" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Sequences" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spam.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="timing_delete" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Sequences" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -151,15 +151,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.timing_delete" />
-        <item itemvalue="Python.outliers" />
-        <item itemvalue="Python.number_lists" />
-        <item itemvalue="Python.gobackwards" />
-        <item itemvalue="Python.enumerate_example" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -189,22 +180,22 @@
       <screen x="0" y="0" width="1366" height="742" />
     </state>
     <state x="746" y="129" width="428" height="481" key="FileChooserDialogImpl/0.0.1366.742@0.0.1366.742" timestamp="1601928280361" />
-    <state width="756" height="235" key="GridCell.Tab.0.bottom" timestamp="1602012791331">
+    <state width="756" height="235" key="GridCell.Tab.0.bottom" timestamp="1602275100101">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state width="756" height="235" key="GridCell.Tab.0.bottom/0.0.1366.742@0.0.1366.742" timestamp="1602012791331" />
-    <state width="756" height="235" key="GridCell.Tab.0.center" timestamp="1602012791330">
+    <state width="756" height="235" key="GridCell.Tab.0.bottom/0.0.1366.742@0.0.1366.742" timestamp="1602275100101" />
+    <state width="756" height="235" key="GridCell.Tab.0.center" timestamp="1602275100100">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state width="756" height="235" key="GridCell.Tab.0.center/0.0.1366.742@0.0.1366.742" timestamp="1602012791330" />
-    <state width="756" height="235" key="GridCell.Tab.0.left" timestamp="1602012791329">
+    <state width="756" height="235" key="GridCell.Tab.0.center/0.0.1366.742@0.0.1366.742" timestamp="1602275100100" />
+    <state width="756" height="235" key="GridCell.Tab.0.left" timestamp="1602275100100">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state width="756" height="235" key="GridCell.Tab.0.left/0.0.1366.742@0.0.1366.742" timestamp="1602012791329" />
-    <state width="756" height="235" key="GridCell.Tab.0.right" timestamp="1602012791330">
+    <state width="756" height="235" key="GridCell.Tab.0.left/0.0.1366.742@0.0.1366.742" timestamp="1602275100100" />
+    <state width="756" height="235" key="GridCell.Tab.0.right" timestamp="1602275100101">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state width="756" height="235" key="GridCell.Tab.0.right/0.0.1366.742@0.0.1366.742" timestamp="1602012791330" />
+    <state width="756" height="235" key="GridCell.Tab.0.right/0.0.1366.742@0.0.1366.742" timestamp="1602275100101" />
     <state width="1320" height="218" key="GridCell.Tab.1.bottom" timestamp="1601492001499">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
@@ -221,21 +212,5 @@
       <screen x="0" y="0" width="1366" height="742" />
     </state>
     <state width="1320" height="218" key="GridCell.Tab.1.right/0.0.1366.742@0.0.1366.742" timestamp="1601492001493" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/buy_computer.py</url>
-          <line>14</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/outliers.py</url>
-          <line>8</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
