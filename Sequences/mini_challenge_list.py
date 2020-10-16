@@ -2,15 +2,15 @@
 # Can either modify the contents of the 'values_list' in place,
 # or create a new list of ints
 
-list_of_strings = ["9", "223", "372", "036", "854", "775", "807"]
-print(list_of_strings)
+values_list = ["9", "223", "372", "036", "854", "775", "807"]
 
-for index in range(len(list_of_strings) - 1):
-    int list_of_ints[index] = int(list_of_strings[index])
+# This replaces the strings with ints
+for index in range(len(values_list)):
+    values_list[index] = int(values_list[index])
+print(values_list)
 
-# list_of_ints = "|".join(list_of_strings)
-print(list_of_ints)
-
-for num in list_of_ints:
-    num += num
-    print(num)
+# This option creates a new list
+integer_values = []
+for value in values_list:
+    integer_values.append(int(value))
+print(integer_values)
