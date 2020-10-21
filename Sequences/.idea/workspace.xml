@@ -45,7 +45,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
   </component>
-  <component name="RunManager" selected="Python.enumerate_example">
+  <component name="RunManager" selected="Python.tuples_intro2">
     <configuration name="enumerate_example" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Sequences" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -88,27 +88,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="splitting_things" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Sequences" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/splitting_things.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="tuples_intro" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Sequences" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -122,6 +101,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tuples_intro.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tuples_intro2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Sequences" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tuples_intro2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -153,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.tuples_intro2" />
+        <item itemvalue="Python.tuples_intro" />
         <item itemvalue="Python.enumerate_example" />
         <item itemvalue="Python.unpacking" />
-        <item itemvalue="Python.tuples_intro" />
         <item itemvalue="Python.mini_challenge_list" />
-        <item itemvalue="Python.splitting_things" />
       </list>
     </recent_temporary>
   </component>
@@ -189,37 +189,37 @@
       <screen x="0" y="0" width="1366" height="742" />
     </state>
     <state x="746" y="129" width="428" height="481" key="FileChooserDialogImpl/0.0.1366.742@0.0.1366.742" timestamp="1601928280361" />
-    <state width="716" height="217" key="GridCell.Tab.0.bottom" timestamp="1602880278775">
+    <state width="951" height="274" key="GridCell.Tab.0.bottom" timestamp="1603224090854">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state width="716" height="217" key="GridCell.Tab.0.bottom/0.0.1366.742@0.0.1366.742" timestamp="1602880278775" />
-    <state width="716" height="217" key="GridCell.Tab.0.center" timestamp="1602880278773">
+    <state width="951" height="274" key="GridCell.Tab.0.bottom/0.0.1366.742@0.0.1366.742" timestamp="1603224090854" />
+    <state width="951" height="274" key="GridCell.Tab.0.center" timestamp="1603224090852">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state width="716" height="217" key="GridCell.Tab.0.center/0.0.1366.742@0.0.1366.742" timestamp="1602880278773" />
-    <state width="716" height="217" key="GridCell.Tab.0.left" timestamp="1602880278772">
+    <state width="951" height="274" key="GridCell.Tab.0.center/0.0.1366.742@0.0.1366.742" timestamp="1603224090852" />
+    <state width="951" height="274" key="GridCell.Tab.0.left" timestamp="1603224090851">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state width="716" height="217" key="GridCell.Tab.0.left/0.0.1366.742@0.0.1366.742" timestamp="1602880278772" />
-    <state width="716" height="217" key="GridCell.Tab.0.right" timestamp="1602880278774">
+    <state width="951" height="274" key="GridCell.Tab.0.left/0.0.1366.742@0.0.1366.742" timestamp="1603224090851" />
+    <state width="951" height="274" key="GridCell.Tab.0.right" timestamp="1603224090853">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state width="716" height="217" key="GridCell.Tab.0.right/0.0.1366.742@0.0.1366.742" timestamp="1602880278774" />
-    <state width="716" height="217" key="GridCell.Tab.1.bottom" timestamp="1602880278781">
+    <state width="951" height="274" key="GridCell.Tab.0.right/0.0.1366.742@0.0.1366.742" timestamp="1603224090853" />
+    <state width="716" height="217" key="GridCell.Tab.1.bottom" timestamp="1602881533898">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state width="716" height="217" key="GridCell.Tab.1.bottom/0.0.1366.742@0.0.1366.742" timestamp="1602880278781" />
-    <state width="716" height="217" key="GridCell.Tab.1.center" timestamp="1602880278778">
+    <state width="716" height="217" key="GridCell.Tab.1.bottom/0.0.1366.742@0.0.1366.742" timestamp="1602881533898" />
+    <state width="716" height="217" key="GridCell.Tab.1.center" timestamp="1602881533897">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state width="716" height="217" key="GridCell.Tab.1.center/0.0.1366.742@0.0.1366.742" timestamp="1602880278778" />
-    <state width="716" height="217" key="GridCell.Tab.1.left" timestamp="1602880278776">
+    <state width="716" height="217" key="GridCell.Tab.1.center/0.0.1366.742@0.0.1366.742" timestamp="1602881533897" />
+    <state width="716" height="217" key="GridCell.Tab.1.left" timestamp="1602881533897">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state width="716" height="217" key="GridCell.Tab.1.left/0.0.1366.742@0.0.1366.742" timestamp="1602880278776" />
-    <state width="716" height="217" key="GridCell.Tab.1.right" timestamp="1602880278780">
+    <state width="716" height="217" key="GridCell.Tab.1.left/0.0.1366.742@0.0.1366.742" timestamp="1602881533897" />
+    <state width="716" height="217" key="GridCell.Tab.1.right" timestamp="1602881533898">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state width="716" height="217" key="GridCell.Tab.1.right/0.0.1366.742@0.0.1366.742" timestamp="1602880278780" />
+    <state width="716" height="217" key="GridCell.Tab.1.right/0.0.1366.742@0.0.1366.742" timestamp="1602881533898" />
   </component>
 </project>
