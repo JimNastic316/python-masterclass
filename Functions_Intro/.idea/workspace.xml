@@ -43,9 +43,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/palindrome_functions.py" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.palindrome_functions">
     <configuration name="functions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Functions_Intro" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -67,8 +68,52 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="palindrome_functions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Functions_Intro" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/palindrome_functions.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="strings2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Functions_Intro" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../FlowControl" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../FlowControl/strings2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.palindrome_functions" />
+        <item itemvalue="Python.strings2" />
         <item itemvalue="Python.functions" />
       </list>
     </recent_temporary>
@@ -94,23 +139,32 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="858" height="176" key="GridCell.Tab.0.bottom" timestamp="1604353339801">
+    <state x="339" y="254" width="428" height="481" key="FileChooserDialogImpl" timestamp="1604606770706">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state width="858" height="176" key="GridCell.Tab.0.bottom/0.0.1366.742@0.0.1366.742" timestamp="1604353339801" />
-    <state width="858" height="176" key="GridCell.Tab.0.center" timestamp="1604353339799">
+    <state x="339" y="254" width="428" height="481" key="FileChooserDialogImpl/0.0.1366.742@0.0.1366.742" timestamp="1604606770706" />
+    <state width="858" height="304" key="GridCell.Tab.0.bottom" timestamp="1604608081873">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state width="858" height="176" key="GridCell.Tab.0.center/0.0.1366.742@0.0.1366.742" timestamp="1604353339799" />
-    <state width="858" height="176" key="GridCell.Tab.0.left" timestamp="1604353339798">
+    <state width="858" height="304" key="GridCell.Tab.0.bottom/0.0.1366.742@0.0.1366.742" timestamp="1604608081873" />
+    <state width="858" height="304" key="GridCell.Tab.0.center" timestamp="1604608081871">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state width="858" height="176" key="GridCell.Tab.0.left/0.0.1366.742@0.0.1366.742" timestamp="1604353339798" />
-    <state width="858" height="176" key="GridCell.Tab.0.right" timestamp="1604353339800">
+    <state width="858" height="304" key="GridCell.Tab.0.center/0.0.1366.742@0.0.1366.742" timestamp="1604608081871" />
+    <state width="858" height="304" key="GridCell.Tab.0.left" timestamp="1604608081871">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state width="858" height="176" key="GridCell.Tab.0.right/0.0.1366.742@0.0.1366.742" timestamp="1604353339800" />
+    <state width="858" height="304" key="GridCell.Tab.0.left/0.0.1366.742@0.0.1366.742" timestamp="1604608081871" />
+    <state width="858" height="304" key="GridCell.Tab.0.right" timestamp="1604608081872">
+      <screen x="0" y="0" width="1366" height="742" />
+    </state>
+    <state width="858" height="304" key="GridCell.Tab.0.right/0.0.1366.742@0.0.1366.742" timestamp="1604608081872" />
+    <state x="222" y="124" width="831" height="618" key="dock-window-1" timestamp="1604606581875">
+      <screen x="0" y="0" width="1366" height="742" />
+    </state>
+    <state x="222" y="124" width="831" height="618" key="dock-window-1/0.0.1366.742@0.0.1366.742" timestamp="1604606581875" />
   </component>
 </project>
