@@ -1,9 +1,10 @@
 def is_palindrome(string):
-    # backwards = string[::-1]
-    # return backwards == string
-    # instead of above, use below line,
-    # also ignor case so if user enters 'Radar'
-    # Program will say is a palindrome
+    """
+    Checks to see if a string is a palindrome, aka
+    reads forwards the same as backwards
+    :param string: The string to check
+    :return: True if is a palindrome, False if not
+    """
     return string[::-1].upper() == string.upper()
 
 # word = input("Please enter a word to check: ")
@@ -15,6 +16,15 @@ def is_palindrome(string):
 
 
 def palindrome_sentence(sentence):
+    """
+    Checks to see if a sentence is a palindrome aka
+    reads forwards the same as backwards
+
+    The function will ignore whitespace, capitalization, and
+    punctuation in the sentence.
+    :param sentence: The sentence to check
+    :return: True if `sentence` is a palindrome, else false
+    """
     string = ""
     # Itarates over every character in the sentence
     for char in sentence:
