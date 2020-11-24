@@ -1,4 +1,4 @@
-def is_palindrome(string):
+def is_palindrome(string: str) -> bool:
     """
     Checks to see if a string is a palindrome, aka
     reads forwards the same as backwards
@@ -15,7 +15,7 @@ def is_palindrome(string):
 #     print("{} is not a palindrome".format(word))
 
 
-def palindrome_sentence(sentence):
+def palindrome_sentence(sentence: str) -> bool:
     """
     Checks to see if a sentence is a palindrome aka
     reads forwards the same as backwards
@@ -41,3 +41,5 @@ if palindrome_sentence(word):
     print("'{}' is a palindrome".format(word))
 else:
     print("'{}' is not a palindrome".format(word))
+
+p = palindrome_sentence(242)

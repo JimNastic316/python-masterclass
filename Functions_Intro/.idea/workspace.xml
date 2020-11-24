@@ -51,7 +51,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.functions">
+  <component name="RunManager" selected="Python.banner">
     <configuration name="banner" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Functions_Intro" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -65,6 +65,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/banner.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="fibonacciExercise" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Functions_Intro" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fibonacciExercise.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -136,34 +157,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="strings2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Functions_Intro" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../FlowControl" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../FlowControl/strings2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.banner" />
+        <item itemvalue="Python.fibonacciExercise" />
         <item itemvalue="Python.functions" />
         <item itemvalue="Python.guessingGame" />
-        <item itemvalue="Python.banner" />
         <item itemvalue="Python.palindrome_functions" />
-        <item itemvalue="Python.strings2" />
       </list>
     </recent_temporary>
   </component>
@@ -195,22 +195,22 @@
       <screen x="0" y="0" width="1366" height="742" />
     </state>
     <state x="339" y="254" width="428" height="481" key="FileChooserDialogImpl/0.0.1366.742@0.0.1366.742" timestamp="1604692640504" />
-    <state width="678" height="315" key="GridCell.Tab.0.bottom" timestamp="1605562670517">
+    <state width="812" height="122" key="GridCell.Tab.0.bottom" timestamp="1605904550729">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state width="678" height="315" key="GridCell.Tab.0.bottom/0.0.1366.742@0.0.1366.742" timestamp="1605562670517" />
-    <state width="678" height="315" key="GridCell.Tab.0.center" timestamp="1605562670516">
+    <state width="812" height="122" key="GridCell.Tab.0.bottom/0.0.1366.742@0.0.1366.742" timestamp="1605904550729" />
+    <state width="812" height="122" key="GridCell.Tab.0.center" timestamp="1605904550728">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state width="678" height="315" key="GridCell.Tab.0.center/0.0.1366.742@0.0.1366.742" timestamp="1605562670516" />
-    <state width="678" height="315" key="GridCell.Tab.0.left" timestamp="1605562670515">
+    <state width="812" height="122" key="GridCell.Tab.0.center/0.0.1366.742@0.0.1366.742" timestamp="1605904550728" />
+    <state width="812" height="122" key="GridCell.Tab.0.left" timestamp="1605904550728">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state width="678" height="315" key="GridCell.Tab.0.left/0.0.1366.742@0.0.1366.742" timestamp="1605562670515" />
-    <state width="678" height="315" key="GridCell.Tab.0.right" timestamp="1605562670516">
+    <state width="812" height="122" key="GridCell.Tab.0.left/0.0.1366.742@0.0.1366.742" timestamp="1605904550728" />
+    <state width="812" height="122" key="GridCell.Tab.0.right" timestamp="1605904550728">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state width="678" height="315" key="GridCell.Tab.0.right/0.0.1366.742@0.0.1366.742" timestamp="1605562670516" />
+    <state width="812" height="122" key="GridCell.Tab.0.right/0.0.1366.742@0.0.1366.742" timestamp="1605904550728" />
     <state x="222" y="124" width="831" height="618" key="dock-window-1" timestamp="1604606581875">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
