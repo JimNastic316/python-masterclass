@@ -1,6 +1,12 @@
 LOW = 1
 HIGH =100
-def fizz_buzz(num):
+def fizz_buzz(num: int) ->str:
+    """
+    Function takes a variable and checks to see if it is divisible
+    by 3, 5, or both.
+    :param num: variable to check
+    :return: string determined on if is divisible by 3, 5, both, neither
+    """
     ans = None
     while True:
         if num % 3 == 0:
