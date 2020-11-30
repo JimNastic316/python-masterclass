@@ -54,28 +54,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.hilo_test">
-    <configuration name="color_print" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Functions_Intro" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/color_print.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.fizz_buzz">
     <configuration name="fibonacciExercise" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Functions_Intro" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -89,6 +68,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fibonacciExercise.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="fizz_buzz" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Functions_Intro" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fizz_buzz.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -162,6 +162,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.fizz_buzz" />
         <item itemvalue="Python.hilo_test" />
         <item itemvalue="Python.hilo_test_two" />
       </list>
@@ -194,26 +195,30 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="0" y="105" width="736" height="634" key="#Inspections" timestamp="1606768780249">
+      <screen x="0" y="0" width="1366" height="742" />
+    </state>
+    <state x="0" y="105" width="736" height="634" key="#Inspections/0.0.1366.742@0.0.1366.742" timestamp="1606768780249" />
     <state x="339" y="254" width="428" height="481" key="FileChooserDialogImpl" timestamp="1604692640504">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
     <state x="339" y="254" width="428" height="481" key="FileChooserDialogImpl/0.0.1366.742@0.0.1366.742" timestamp="1604692640504" />
-    <state width="302" height="589" key="GridCell.Tab.0.bottom" timestamp="1606760801139">
+    <state width="932" height="234" key="GridCell.Tab.0.bottom" timestamp="1606769833272">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state width="302" height="589" key="GridCell.Tab.0.bottom/0.0.1366.742@0.0.1366.742" timestamp="1606760801139" />
-    <state width="302" height="589" key="GridCell.Tab.0.center" timestamp="1606760801137">
+    <state width="932" height="234" key="GridCell.Tab.0.bottom/0.0.1366.742@0.0.1366.742" timestamp="1606769833272" />
+    <state width="932" height="234" key="GridCell.Tab.0.center" timestamp="1606769833271">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state width="302" height="589" key="GridCell.Tab.0.center/0.0.1366.742@0.0.1366.742" timestamp="1606760801137" />
-    <state width="302" height="589" key="GridCell.Tab.0.left" timestamp="1606760801134">
+    <state width="932" height="234" key="GridCell.Tab.0.center/0.0.1366.742@0.0.1366.742" timestamp="1606769833271" />
+    <state width="932" height="234" key="GridCell.Tab.0.left" timestamp="1606769833271">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state width="302" height="589" key="GridCell.Tab.0.left/0.0.1366.742@0.0.1366.742" timestamp="1606760801134" />
-    <state width="302" height="589" key="GridCell.Tab.0.right" timestamp="1606760801138">
+    <state width="932" height="234" key="GridCell.Tab.0.left/0.0.1366.742@0.0.1366.742" timestamp="1606769833271" />
+    <state width="932" height="234" key="GridCell.Tab.0.right" timestamp="1606769833272">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state width="302" height="589" key="GridCell.Tab.0.right/0.0.1366.742@0.0.1366.742" timestamp="1606760801138" />
+    <state width="932" height="234" key="GridCell.Tab.0.right/0.0.1366.742@0.0.1366.742" timestamp="1606769833272" />
     <state width="932" height="218" key="GridCell.Tab.1.bottom" timestamp="1606759842851">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
@@ -238,10 +243,10 @@
       <screen x="0" y="0" width="1366" height="742" />
     </state>
     <state x="392" y="0" width="903" height="742" key="SettingsEditor/0.0.1366.742@0.0.1366.742" timestamp="1606510409980" />
-    <state x="222" y="124" width="831" height="618" key="dock-window-1" timestamp="1604606581875">
+    <state x="0" y="54" width="936" height="452" key="dock-window-1" timestamp="1606768666470">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state x="222" y="124" width="831" height="618" key="dock-window-1/0.0.1366.742@0.0.1366.742" timestamp="1604606581875" />
+    <state x="0" y="54" width="936" height="452" key="dock-window-1/0.0.1366.742@0.0.1366.742" timestamp="1606768666470" />
     <state x="682" y="184" key="run.anything.popup" timestamp="1606244464974">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
