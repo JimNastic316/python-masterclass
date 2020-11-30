@@ -44,6 +44,9 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
   </component>
   <component name="RecentsManager">
@@ -51,8 +54,8 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.banner">
-    <configuration name="banner" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.hilo_test">
+    <configuration name="color_print" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Functions_Intro" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -64,7 +67,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/banner.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/color_print.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -115,7 +118,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="guessingGame" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="hilo_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Functions_Intro" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -127,7 +130,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/guessingGame.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hilo_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -136,7 +139,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="palindrome_functions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="hilo_test_two" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Functions_Intro" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -148,7 +151,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/palindrome_functions.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hilo_test_two.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -159,11 +162,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.banner" />
-        <item itemvalue="Python.fibonacciExercise" />
-        <item itemvalue="Python.functions" />
-        <item itemvalue="Python.guessingGame" />
-        <item itemvalue="Python.palindrome_functions" />
+        <item itemvalue="Python.hilo_test" />
+        <item itemvalue="Python.hilo_test_two" />
       </list>
     </recent_temporary>
   </component>
@@ -177,6 +177,9 @@
       <updated>1604351894127</updated>
     </task>
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.configurationType" implementationName="PythonConfigurationType" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -195,25 +198,53 @@
       <screen x="0" y="0" width="1366" height="742" />
     </state>
     <state x="339" y="254" width="428" height="481" key="FileChooserDialogImpl/0.0.1366.742@0.0.1366.742" timestamp="1604692640504" />
-    <state width="812" height="122" key="GridCell.Tab.0.bottom" timestamp="1605904550729">
+    <state width="302" height="589" key="GridCell.Tab.0.bottom" timestamp="1606760801139">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state width="812" height="122" key="GridCell.Tab.0.bottom/0.0.1366.742@0.0.1366.742" timestamp="1605904550729" />
-    <state width="812" height="122" key="GridCell.Tab.0.center" timestamp="1605904550728">
+    <state width="302" height="589" key="GridCell.Tab.0.bottom/0.0.1366.742@0.0.1366.742" timestamp="1606760801139" />
+    <state width="302" height="589" key="GridCell.Tab.0.center" timestamp="1606760801137">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state width="812" height="122" key="GridCell.Tab.0.center/0.0.1366.742@0.0.1366.742" timestamp="1605904550728" />
-    <state width="812" height="122" key="GridCell.Tab.0.left" timestamp="1605904550728">
+    <state width="302" height="589" key="GridCell.Tab.0.center/0.0.1366.742@0.0.1366.742" timestamp="1606760801137" />
+    <state width="302" height="589" key="GridCell.Tab.0.left" timestamp="1606760801134">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state width="812" height="122" key="GridCell.Tab.0.left/0.0.1366.742@0.0.1366.742" timestamp="1605904550728" />
-    <state width="812" height="122" key="GridCell.Tab.0.right" timestamp="1605904550728">
+    <state width="302" height="589" key="GridCell.Tab.0.left/0.0.1366.742@0.0.1366.742" timestamp="1606760801134" />
+    <state width="302" height="589" key="GridCell.Tab.0.right" timestamp="1606760801138">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state width="812" height="122" key="GridCell.Tab.0.right/0.0.1366.742@0.0.1366.742" timestamp="1605904550728" />
+    <state width="302" height="589" key="GridCell.Tab.0.right/0.0.1366.742@0.0.1366.742" timestamp="1606760801138" />
+    <state width="932" height="218" key="GridCell.Tab.1.bottom" timestamp="1606759842851">
+      <screen x="0" y="0" width="1366" height="742" />
+    </state>
+    <state width="932" height="218" key="GridCell.Tab.1.bottom/0.0.1366.742@0.0.1366.742" timestamp="1606759842851" />
+    <state width="932" height="218" key="GridCell.Tab.1.center" timestamp="1606759842850">
+      <screen x="0" y="0" width="1366" height="742" />
+    </state>
+    <state width="932" height="218" key="GridCell.Tab.1.center/0.0.1366.742@0.0.1366.742" timestamp="1606759842850" />
+    <state width="932" height="218" key="GridCell.Tab.1.left" timestamp="1606759842850">
+      <screen x="0" y="0" width="1366" height="742" />
+    </state>
+    <state width="932" height="218" key="GridCell.Tab.1.left/0.0.1366.742@0.0.1366.742" timestamp="1606759842850" />
+    <state width="932" height="218" key="GridCell.Tab.1.right" timestamp="1606759842851">
+      <screen x="0" y="0" width="1366" height="742" />
+    </state>
+    <state width="932" height="218" key="GridCell.Tab.1.right/0.0.1366.742@0.0.1366.742" timestamp="1606759842851" />
+    <state x="522" y="118" width="828" height="505" key="IDE.errors.dialog" timestamp="1606252950104">
+      <screen x="0" y="0" width="1366" height="742" />
+    </state>
+    <state x="522" y="118" width="828" height="505" key="IDE.errors.dialog/0.0.1366.742@0.0.1366.742" timestamp="1606252950104" />
+    <state x="392" y="0" width="903" height="742" key="SettingsEditor" timestamp="1606510409980">
+      <screen x="0" y="0" width="1366" height="742" />
+    </state>
+    <state x="392" y="0" width="903" height="742" key="SettingsEditor/0.0.1366.742@0.0.1366.742" timestamp="1606510409980" />
     <state x="222" y="124" width="831" height="618" key="dock-window-1" timestamp="1604606581875">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
     <state x="222" y="124" width="831" height="618" key="dock-window-1/0.0.1366.742@0.0.1366.742" timestamp="1604606581875" />
+    <state x="682" y="184" key="run.anything.popup" timestamp="1606244464974">
+      <screen x="0" y="0" width="1366" height="742" />
+    </state>
+    <state x="682" y="184" key="run.anything.popup/0.0.1366.742@0.0.1366.742" timestamp="1606244464974" />
   </component>
 </project>
