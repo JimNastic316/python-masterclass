@@ -16,12 +16,12 @@ vehicles["toy"] = "glider"
 #Upgrade the Virago
 vehicles["virago"] = "Yamaha XV535"
 
-del vehicles ["starfighter"]
+# del vehicles ["starfighter"]
 # del vehicles["f1"]
-result = vehicles.pop("f1", "You wish. Sell the Learjet and maybe")
-print(result)
-plane = vehicles.pop("learjet")
-print(plane)
+# result = vehicles.pop("f1", "You wish. Sell the Learjet and maybe")
+# print(result)
+# plane = vehicles.pop("learjet")
+# print(plane)
 
 bike = vehicles.pop("tenere", "not present")
 print(bike)
