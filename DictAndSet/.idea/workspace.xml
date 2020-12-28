@@ -30,7 +30,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.buy_computer_dict">
+  <component name="RunManager" selected="Python.meal_planner">
     <configuration name="buy_computer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DictAndSet" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -115,7 +115,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="zen" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="meal_planner" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DictAndSet" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -127,7 +127,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zen.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/meal_planner.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -138,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.meal_planner" />
         <item itemvalue="Python.buy_computer_dict" />
         <item itemvalue="Python.dict_list" />
         <item itemvalue="Python.buy_computer" />
         <item itemvalue="Python.dict_intro" />
-        <item itemvalue="Python.zen" />
       </list>
     </recent_temporary>
   </component>
