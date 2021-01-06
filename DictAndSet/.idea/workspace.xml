@@ -23,14 +23,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/dict_list.py" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.recipe_options">
+  <component name="RunManager" selected="Python.meal_planner">
     <configuration name="buy_computer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DictAndSet" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -138,8 +138,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.recipe_options" />
         <item itemvalue="Python.meal_planner" />
+        <item itemvalue="Python.recipe_options" />
         <item itemvalue="Python.buy_computer_dict" />
         <item itemvalue="Python.dict_list" />
         <item itemvalue="Python.buy_computer" />
@@ -156,5 +156,9 @@
       <updated>1607713568054</updated>
     </task>
     <servers />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
