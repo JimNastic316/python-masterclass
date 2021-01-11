@@ -11,9 +11,29 @@ d = {
     9: "nine",
 }
 pantry_items = ['chicken', 'spam', 'egg', 'bread', 'lemon']
+d2 = {
+    7: 'lucky seven',
+    10: 'ten',
+    3: 'this is the new three',
+}
+d.update(d2)
+print('After update')
+for key, value in d.items():
+    print(key, value)
 
-new_dict = dict.fromkeys(pantry_items, 0)
-print(new_dict)
+print()
+
+d.update(enumerate(pantry_items))
+for key, value in d.items():
+    print(key, value)
+
+# Code for "The remaining 'dict' methods" lecture
+# ***********************************************
+# new_dict = dict.fromkeys(pantry_items, 0)
+# print(new_dict)
 
 # keys = d.keys()
 # print(keys)
+#
+# for item in d.keys():
+#     print(item)
