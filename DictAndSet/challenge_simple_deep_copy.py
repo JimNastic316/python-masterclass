@@ -10,10 +10,15 @@ def my_deepcopy(dictionary: dict) -> dict:
     :param dictionary: The dictionary to copy
     :return: a copy of dictionary, with values being copies of the original values
     """
-    dictionary_copy = {}
 
-    for key, value in dictionary:
-        key_copy, value_copy = (key, value)
+    #
+    dictionary_copy = {}
+    for key, value in dictionary.items():
+        new_value = value.copy()
+        dictionary_copy[key] = new_value
+    return dictionary_copy
+
+
 
 
 # create a new, empty dictionary
@@ -26,6 +31,6 @@ def my_deepcopy(dictionary: dict) -> dict:
 
 # test data
 recipes_copy = my_deepcopy(recipes)
-recipes_copy["Butter chicken"]["ginger"] = 300
+recipes_copy["Butter chicken"]["ginger"] = 300 #value is '3' in recipes
 print(recipes_copy["Butter chicken"]["ginger"])
 print(recipes["Butter chicken"]["ginger"])
