@@ -19,6 +19,19 @@ def simple_hash(s: str) -> int:
     basic_hash = ord(s[0])
     return basic_hash % 10
 
+def get(k: str) -> str:
+    """
+    Return the value for a key, or None if the key doesn't exist
+    :param k: Key value to be checked
+    :return: value for key or None
+    """
+    hash_code = simple_hash(k)
+    if values[hash_code]:
+        return values[hash_code]
+    else:
+        return None
+
+
 keys = [""] * 10
 values = keys.copy()
 
@@ -29,5 +42,8 @@ for key, value in data:
     keys[h] = key
     values[h] = value
 
-print(keys)
-print(values)
+print(f"Keys: {keys}")
+print(f"Values: {values}")
+print()
+value = get("banana")
+print(f"Value :{value}")
