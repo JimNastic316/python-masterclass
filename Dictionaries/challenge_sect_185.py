@@ -8,14 +8,38 @@ locations = {
 }
 
 loc = 1
-exits = [
-    {"Q": 0},                                  # 0
-    {"W": 2, "E": 3, "N": 5, "S": 4, "Q": 0},  # 1
-    {"N": 5, "Q": 0},                          # 2
-    {"W": 1, "Q": 0},                          # 3
-    {"N": 1, "W": 2, "Q": 0},                  # 4
-    {"W": 2, "S": 1, "Q": 0}                   # 5
-]
+# exits = [
+#     {"Q": 0},                                  # 0
+#     {"W": 2, "E": 3, "N": 5, "S": 4, "Q": 0},  # 1
+#     {"N": 5, "Q": 0},                          # 2
+#     {"W": 1, "Q": 0},                          # 3
+#     {"N": 1, "W": 2, "Q": 0},                  # 4
+#     {"W": 2, "S": 1, "Q": 0}                   # 5
+# ]
+# FIRST PART OF CHALLENGE
+# Challenge is to change exits to dictionaries, not lists
+# to do so, you just reformat exits into a dictionary
+# and don't need to change the code
+exits = {
+    0: {"Q": 0},                                  # 0
+    1: {"W": 2, "E": 3, "N": 5, "S": 4, "Q": 0},  # 1
+    2: {"N": 5, "Q": 0},                          # 2
+    3: {"W": 1, "Q": 0},                          # 3
+    4: {"N": 1, "W": 2, "Q": 0},                  # 4
+    5: {"W": 2, "S": 1, "Q": 0}                   # 5
+}
+
+# SECOND PART OF CHALLENGE
+# Add some code to validate input. For example, allow user
+# to type "Go West" or "North" instead of just N, S, E, W
+vocabulary = {
+    "QUIT": "Q",
+    "NORTH": "N",
+    "SOUTH": "S",
+    "EAST": "E",
+    "WEST": "W"
+}
+
 
 loc = 1
 while True:
