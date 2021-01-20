@@ -40,6 +40,10 @@ vocabulary = {
     "WEST": "W"
 }
 
+# print(locations[0].split()) # splits on spaces as default
+#
+# print(locations[3].split())     # splits on spaces
+# print(locations[3].split(','))  # splits on ','
 
 loc = 1
 while True:
@@ -53,8 +57,15 @@ while True:
 
     if loc == 0:
         break
+
     direction = input("Available exits are " + availableExits + " ").upper()
     print()
+    # Parse the user input using our vocabulary dictionary if needed
+    if len(direction) > 1:  # if more than 1 letter was input, check vocab
+        for word in vocabulary:
+            if word in direction:
+                direction = vocabulary[word]
+
     if direction in exits[loc]:
         loc = exits[loc][direction]
         print(f"Moved to {loc}")
