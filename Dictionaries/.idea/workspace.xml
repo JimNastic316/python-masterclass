@@ -25,7 +25,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
   </component>
-  <component name="RunManager" selected="Python.fruit">
+  <component name="RunManager" selected="Python.challenge_sect_185_2">
     <configuration name="challenge_sect_185" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Dictionaries" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -47,7 +47,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="dictionaires" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="challenge_sect_185_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Dictionaries" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -59,7 +59,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dictionaires.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/challenge_sect_185_2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -133,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.challenge_sect_185_2" />
         <item itemvalue="Python.fruit" />
         <item itemvalue="Python.challenge_sect_185" />
         <item itemvalue="Python.map_sect184" />
         <item itemvalue="Python.join" />
-        <item itemvalue="Python.dictionaires" />
       </list>
     </recent_temporary>
   </component>

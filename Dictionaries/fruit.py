@@ -14,13 +14,19 @@ veg = {
 
 print(veg)
 
-# adds fruit dictoinary to veg dictionary
-veg.update(fruit)
-print(veg)
-print(fruit)
-print(fruit.update(veg))
-print(fruit)
+# # adds fruit dictoinary to veg dictionary
+# veg.update(fruit)
+# print(veg)
+# print(fruit)
+# print(fruit.update(veg))
+# print(fruit)
 # print(fruit.update(veg))
 # print ()
 # print(veg)
 # print(fruit)
+
+nice_and_nasty = fruit.copy()
+nice_and_nasty.update(veg)
+print(nice_and_nasty)
+print(fruit)
+print(veg)
