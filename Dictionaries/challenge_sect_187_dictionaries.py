@@ -37,14 +37,6 @@ vocabulary = {"QUIT": "Q",
               "BUILDING": "3",
               "VALLEY": "4",
               "FOREST": "5"}
-namedExits = {
-    1: {"2": 2, "3": 3, "4": 4, "5": 5},
-    2: {"5": 5},
-    3: {"1": 1},
-    4: {"1": 1, "2": 2},
-    5: {"1": 1, "2": 2}
-}
-
 
 loc = 1
 while True:
@@ -56,10 +48,10 @@ while True:
     if loc == 0:
         break
     else:
-        allExits = locations[loc].copy()
-        allExits.update(namedExits[loc])
+        allExits = locations[loc]["exits"].copy()
+        allExits.update(locations[loc]["namedExits"])
 
-    direction = input("Available exits are " + availableExits).upper()
+    direction = input("Available exits are " + availableExits + " ").upper()
     print()
 
     # Parse the user input, using our vocabulary dictionary if necessary

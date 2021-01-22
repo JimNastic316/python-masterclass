@@ -134,9 +134,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.challenge_sect_187_dictionaries" />
+        <item itemvalue="Python.challenge_sect_185" />
         <item itemvalue="Python.challenge_sect_185_2" />
         <item itemvalue="Python.fruit" />
-        <item itemvalue="Python.challenge_sect_185" />
         <item itemvalue="Python.map_sect184" />
       </list>
     </recent_temporary>
@@ -151,5 +151,16 @@
       <updated>1607547614446</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/challenge_sect_187_dictionaries.py</url>
+          <line>42</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
