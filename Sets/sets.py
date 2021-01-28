@@ -72,11 +72,11 @@
 # even.difference_update(squares)
 # print(sorted(even))
 
-even = set(range(0, 40 ,2))
-print(sorted(even))
-squares_tuple = (4, 6, 9 ,16, 25)
-squares = set(squares_tuple)
-print(squares)
+# even = set(range(0, 40 ,2))
+# print(sorted(even))
+# squares_tuple = (4, 6, 9 ,16, 25)
+# squares = set(squares_tuple)
+# print(squares)
 
 # print("symmetric even minus squares")
 # print(even.symmetric_difference(squares))
@@ -86,11 +86,28 @@ print(squares)
 # print(squares.symmetric_difference(even))
 # print(squares ^ even)
 
-squares.discard(4)
-squares.remove(16)
-squares.discard(8)  # no error, doesn't exist
-print(squares)
-try:
-    squares.remove(8)
-except KeyError:
-    print("The item 8 is not a member of the set")
+# squares.discard(4)
+# squares.remove(16)
+# squares.discard(8)  # no error, doesn't exist
+# print(squares)
+# try:
+#     squares.remove(8)
+# except KeyError:
+#     print("The item 8 is not a member of the set")
+
+# even = set(range(0, 40 ,2))
+# print(sorted(even))
+# squares_tuple = (4, 6,16)
+# squares = set(squares_tuple)
+# print(squares)
+
+# issubset
+# if squares.issubset(even):
+#     print("squares is a subset of even")
+# if even.issubset(squares):
+#     print("even is a subset of squares")   # won't print
+# # issuperset
+# if even.issuperset(squares):
+#     print("even is s a superset of squares")
+# if squares.issuperset(even):
+#     print("squares is s superset of even") # won't print
