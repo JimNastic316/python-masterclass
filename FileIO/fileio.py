@@ -29,12 +29,12 @@ with open("sample.txt", 'r') as jabber:
 print(lines)
 
 for line in lines[::-1]:    # this reads in reverse
-    print(line, end ='')
+    print(line, end=')
 
 # Note the difference when READ() is used instead of READLINES()
 with open("sample.txt", 'r') as jabber:
-    lines = jabber.read()   # note this 
+    lines = jabber.read()   # note this
 print(lines)
 
 for line in lines[::-1]:
-    print(line, end ='')
+    print(line, end='')
