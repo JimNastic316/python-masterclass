@@ -24,7 +24,7 @@ fruit['lime'] = "a sour, green citrus fruit"
 # for snack in fruit:
 #     print(snack + ": " + fruit[snack])
 
-<<<<<<< HEAD
+# <<<<<<< HEAD
 # while True:
 #     dict_key = input("Please enter a fruit: ")
 #     if dict_key == "quit":
