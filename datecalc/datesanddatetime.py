@@ -10,6 +10,6 @@ if time.daylight != 0:
     print("The DST timezone is " + time.tzname[1])
 
 print(f"Local time is {time.strftime('%Y-%m-%d %H:%M:%S', time.localtime())}")
-# print("Local time is " + time.strftime('%Y-%m-%d %H:%M:%S', time.localtime()))
+# print("Local time is " + time.strftime(,'%Y-%m-%d %H:%M:%S', time.localtime()))
 print(f"UTC time is {time.strftime('%Y-%m-%d %H:%M:%S', time.gmtime())}")
 
