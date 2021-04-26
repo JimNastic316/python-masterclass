@@ -1,3 +1,7 @@
+# try:
+#     import tkinter
+# except ImportError: #python 2
+#     import Tkinter as tkinter
 import tkinter
 
 
@@ -6,7 +10,7 @@ import tkinter
 mainWindow = tkinter.Tk()
 
 mainWindow.title('Hello World')
-mainWindow.geometry('640x400+8+200')
+mainWindow.geometry('640x400-8-200')
 
 label = tkinter.Label(mainWindow, text="Hello World")
 label.grid(row=0, column=0)
