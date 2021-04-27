@@ -1,4 +1,5 @@
 import tkinter
+import os
 
 
 
@@ -21,5 +22,12 @@ mainWindow.rowconfigure(1, weight=10)
 mainWindow.rowconfigure(2, weight=1)
 mainWindow.rowconfigure(3, weight=3)
 mainWindow.rowconfigure(4, weight=3)
+# Listbox
+fileList = tkinter.Listbox(mainWindow)
+fileList.grid(row=1, column=0, sticky='nsew', rowspan=2)
+fileList.config(border=2, relief='sunken')
+# Populate Listbox
+for zone in os.listdir('/usr/bin'):
+    fileList.insert(tkinter.END, zone)
 
 mainWindow.mainloop()
