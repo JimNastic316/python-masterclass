@@ -1,22 +1,20 @@
 import tkinter
 import os
 
-
-
-
 mainWindow = tkinter.Tk()
 
 mainWindow.title('Grid Demo')
 mainWindow.geometry('640x400-8-200')
+mainWindow['padx'] = 8
 
 label=tkinter.Label(mainWindow, text='Tkinter Grid Demo')
 label.grid(row=0, column=0, columnspan=3)
 # set up columns & rows
-mainWindow.grid_columnconfigure(0, weight=1)
+mainWindow.grid_columnconfigure(0, weight=100)
 mainWindow.grid_columnconfigure(1, weight=1)
-mainWindow.grid_columnconfigure(2, weight=3)
-mainWindow.grid_columnconfigure(3, weight=3)
-mainWindow.grid_columnconfigure(4, weight=3)
+mainWindow.grid_columnconfigure(2, weight=1000)
+mainWindow.grid_columnconfigure(3, weight=600)
+mainWindow.grid_columnconfigure(4, weight=1000)
 mainWindow.rowconfigure(0, weight=1)
 mainWindow.rowconfigure(1, weight=10)
 mainWindow.rowconfigure(2, weight=1)
@@ -84,9 +82,12 @@ yearSpin = tkinter.Spinbox(dateFrame, width=5, from_=2000, to=2099)
 daySpin.grid(row=1, column=0)
 monthSpin.grid(row=1, column=1)
 yearSpin.grid(row=1, column=2)
-
+# Buttons
+okButton = tkinter.Button(mainWindow, text='OK')
+cancelButton = tkinter.Button(mainWindow, text='Cancel', command=mainWindow.destroy)
+okButton.grid(row=4, column=3, sticky='e')
+cancelButton.grid(row=4, column=4, sticky='w')
 
 mainWindow.mainloop()
 
 print(rbValue.get())
-
