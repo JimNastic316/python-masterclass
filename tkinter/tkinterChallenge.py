@@ -7,7 +7,8 @@ keys = [[('C', 1), ('CE', 1)],
         [('0', 1), ('=', 1), ('/', 1)],
         ]
 
-# mainWindowPadding = 8
+mainWindowPadding = 8 # used to preserve minimum window size
+
 mainWindow = tkinter.Tk()
 
 mainWindow.title('Calculator')
@@ -22,11 +23,17 @@ keyPad.grid(row=1, column=0, sticky='nsew')
 row = 0
 for keyRow in keys:
         col = 0
-        print(f"col = {col}")
+        # print(f"col = {col}")
         for key in keyRow:
                 tkinter.Button(keyPad, text=key[0]).grid(row=row, column=col, columnspan=key[1], sticky=tkinter.E + tkinter.W)
                 col += key[1]
         row +=1
-        print(f"row = {row}")
+        # print(f"row = {row}")
+
+# Code to preserve minumum window size
+# Prevents squeezing calculator into a small dot
+mainWindow.update()  # won't work without this
+mainWindow.minsize(keyPad.winfo_width() + mainWindowPadding, result.winfo_height() + keyPad.winfo_height())
+mainWindow.maxsize(keyPad.winfo_width() + 50 + mainWindowPadding, result.winfo_height() + 50 + keyPad.winfo_height())
 
 mainWindow.mainloop()
