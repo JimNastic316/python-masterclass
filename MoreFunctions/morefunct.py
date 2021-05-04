@@ -1,19 +1,21 @@
 import tkinter
 
-def parabola(x):
-    y = x * x / 100 # divide by 100 to scale the gride better
-    return y
+def parabola(page, size):
+    for x in range(-size, size):
+        y = x * x / size # divide by size to scale the grid better
+        plot(page, x, y)
 
-def draw_axes(canvas):
-    canvas.update()
-    x_origin = canvas.winfo_width() / 2
-    y_origin = canvas.winfo_height() / 2
-    canvas.configure(scrollregion=(-x_origin, -y_origin, x_origin, y_origin))
-    canvas.create_line(-x_origin, 0 , x_origin, 0, fill="black")
-    canvas.create_line(0, y_origin, 0, -y_origin, fill="black")
+def draw_axes(page):
+    page.update()
+    x_origin = page.winfo_width() / 2
+    y_origin = page.winfo_height() / 2
+    page.configure(scrollregion=(-x_origin, -y_origin, x_origin, y_origin))
+    page.create_line(-x_origin, 0, x_origin, 0, fill="black")
+    page.create_line(0, y_origin, 0, -y_origin, fill="black")
+    print(locals())
 
-def plot(canvas, x, y):
-    canvas.create_line(x, y, x + 1, y + 1, fill="red")
+def plot(page, x, y):
+    page.create_line(x, -y, x + 1, -y + 1, fill="red")
 
 
 # Main window setup
@@ -26,10 +28,7 @@ canvas = tkinter.Canvas(mainWindow, width=640, height=480)
 canvas.grid(row=0, column=0)
 
 draw_axes(canvas)
-
-for x in range(-100, 100):
-    y = parabola(x)
-    plot(canvas, x, -y) # use - y to flip the graph
-
+parabola(canvas, 100)
+parabola(canvas, 200)
 
 mainWindow.mainloop()
