@@ -32,6 +32,7 @@ def draw_axes(page):
 def plot(page, x, y):
     page.create_line(x, -y, x + 1, -y + 1, fill="red")
 
+# print(tkinter.TkVersion)
 
 # Main window setup
 mainWindow = tkinter.Tk()
