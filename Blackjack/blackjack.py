@@ -3,6 +3,34 @@ import tkinter
 
 mainWindow = tkinter.Tk()
 
+# Load images
+def load_images(card_images):
+    suits = ['heart', 'club', 'diamond', 'spade']
+    face_cards = ['jack', 'queen', 'king']
+
+    if tkinter.TkVersion >= 8.6:
+        extension = 'png'
+    else:
+        extension = 'ppm'
+#     # for each suit, retrieve the image for the cards
+    for suit in suits:
+        # first the number cards from 1 to 10 (quits at 11)
+        for card in range(1, 11):
+            name = 'cards/{}_{}.{}'.format(str(card), suit, extension)
+            image = tkinter.PhotoImage(file=name)
+            card_images.append((card, image,))
+#         # next the face cards
+        for card in face_cards:
+            name = 'cards/{}_{}.{}'.format(str(card), suit, extension)
+            image = tkinter.PhotoImage(file=name)
+            card_images.append((10, image,))
+
+def deal_card(frame):
+    next_card = deck.pop()
+    tkinter.Label(frame, image=next_card[1], relief='raised').pack(side='left')
+    return next_card
+
+
 # Set up screen and frames for the dealer and player
 mainWindow.title("Black Jack")
 mainWindow.geometry('640x480')
@@ -36,5 +64,17 @@ dealer_button.grid(row=0, column=0)
 
 player_button = tkinter.Button(button_frame, text='Player')
 player_button.grid(row=0, column=1)
+
+# load cards
+cards = []
+load_images(cards)
+print(cards)
+# Create a new deck of cards and shuffle them
+deck = list(cards)
+random.shuffle(deck)
+
+# Create the list to store the dealer's and player's hands
+dealer_hand = []
+player_hand = []
 
 mainWindow.mainloop()
