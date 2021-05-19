@@ -1,5 +1,9 @@
 import random
-import tkinter
+
+try:
+    import tkinter
+except ImportError:  # python 2
+    import Tkinter as tkinterc
 
 
 # Load images
@@ -34,24 +38,45 @@ def deal_card(frame):
     return next_card
 
 
+def score_hand(hand):
+    # Calculate the total score of all cards in the list.
+    # Only one ace can have the value 11, and this will be reduced to 1 if the hand would bust
+        score = 0
+        ace = False
+        for next_card in hand:
+            card_value = next_card[0]
+            if card_value == 1 and not ace:
+                ace = True
+                card_value = 11
+            score += card_value
+            # If we would bust, check if there is an ace, and subract 10 if can
+        if score > 21 and ace:
+            score -= 10
+            ace = False
+                
+
 def deal_dealer():
     deal_card(dealer_card_frame)
 
 
 def deal_player():
-    player_score = 0
+    global player_score
+    global player_ace
     card_value = deal_card(player_card_frame)[0]
     if card_value == 1 and not player_ace:
+        player_ace = True
         card_value = 11
     player_score += card_value
     print(player_score)
     # if we would bust, check if there is an ace and subtract
     if player_score > 21 and player_ace:
         player_score -= 10
+        player_ace = False
         print(player_score)
     player_score_label.set(player_score)
     if player_score > 21:
         result_text.set("Dealer Wins!")
+    print(locals())
 
 mainWindow = tkinter.Tk()
 
