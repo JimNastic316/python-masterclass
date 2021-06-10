@@ -110,8 +110,19 @@ def new_game():
     dealer_score_label.set(score_hand(dealer_hand))
     deal_player()
 
+
 def shuffle():
     random.shuffle(deck)
+
+
+def play():
+    deal_player()
+    dealer_hand.append(deal_card(dealer_card_frame))
+    dealer_score_label.set(score_hand(dealer_hand))
+    deal_player()
+
+    mainWindow.mainloop()
+
 
 mainWindow = tkinter.Tk()
 
@@ -163,12 +174,13 @@ load_images(cards)
 print(cards)
 # Create a new deck of cards and shuffle them
 deck = list(cards)
+# to add more decks of cards, simply
+# deck = list(cards) + list(cards) + list(cards)
 shuffle()
 
 # Create the list to store the dealer's and player's hands
 dealer_hand = []
 player_hand = []
 
-new_game()
-
-mainWindow.mainloop()
+if __name__ == '__main__':
+    play()
