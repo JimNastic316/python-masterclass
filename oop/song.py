@@ -17,7 +17,7 @@ class Album:
     """ Class to represent an Album, using its track list
 
     Attributes:
-        album_name (str): The name of the album
+        name (str): The name of the album
         year (int): The year the album was released
         artist (Artist): The artist responsible for the album. If not specified,
         default = "Various Artists".
@@ -38,7 +38,7 @@ class Album:
         self.tracks = []
 
     def add_song(self, song, position=None):
-        """ Adds a sont to the track list
+        """ Adds a song to the track list
 
         Args:
             song (Song): A song to add.
@@ -52,3 +52,47 @@ class Album:
         else:
             self.tracks.insert(position, song)
 
+
+class Artist:
+    """ Basic class to store artist details
+
+    Attributes:
+        name (str): The name of the artist.
+        albums (List[Album]): A list of the albums by this artist.
+            The list include only those albums in this collection, it is
+            not an exhaustive list of the artist's published albums.
+
+    Methods:
+        add_album: Used to add a new album to the artists' list
+    """
+    def __init__(self, name):
+        self.name = name
+        self.albums = []
+
+    def add_album(self, album):
+        """ Add a new album to the list
+
+        Args:
+            album (Album): Album object to add to the list.
+                If album is already present, it will not be added again (although this is yet to be implemented).
+        """
+        self.albums.append(album)
+
+
+def load_data():
+    new_artist = None
+    new_album = None
+    artist_list = []
+
+    with open("albums.txt", "r") as albums:
+        for line in albums:
+            # data row should consist of (artis, album, year, song)
+            artist_field, album_field, year_field, song_field = tuple(line.strip('\n').split('\t'))
+            year_field = int(year_field)
+            print(artist_field, album_field, year_field, song_field)
+
+            if new_artist is None:
+                new_artist = Artist(artist_field)
+
+if __name__ == '__main__':
+    load_data()
