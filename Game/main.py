@@ -13,19 +13,20 @@ ugly_troll.grunt()
 another_troll.grunt()
 brother.grunt()
 
-vampyre = Vampyre("Chocula")
-print("Vampyer - {}".format(vampyre))
+vamp = Vampyre("Vamp")
+print("Vampyer - {}".format(vamp))
 
-vampyre_2 = Vampyre("Chocula the 2nd")
+vampyre_2 = Vampyre("Vamp the 2nd")
 print("Another vampyre - {}".format(vampyre_2))
 
-vampyre.talk()
+vamp.talk()
 vampyre_2.talk()
 
-vampyre.take_damage(3)
+vamp.take_damage(3)
 vampyre_2.take_damage(4)
 another_troll.take_damage(3)
 
-while vampyre.alive:
-    vampyre.take_damage(1)
-    print(vampyre)
+
+vamp._lives = 0
+vamp._hit_points = 1
+print(vamp)
