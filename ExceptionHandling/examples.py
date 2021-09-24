@@ -7,7 +7,7 @@ def factorial(n):
         return n * factorial(n-1)
 
 try:
-    print(factorial(1000))
+    print(factorial(900))
 except RecursionError:
     print("This program can't calculate programs that large")
 
