@@ -42,16 +42,28 @@ class Penguin(object):
         print("Are you having a laugh?")
 
 
-def test_duck(duck):
-    duck.walk()
-    duck.swim()
-    duck.quack()
+class Flock(object):
+
+    def __init__(self):
+        self.flock = []
+
+    def add_duck(self, duck: Duck) -> None:
+        self.flock.append(duck)
+
+    def migrate(self):
+        problem = None
+        for duck in self.flock:
+            try:
+                duck.fly()
+            except AttributeError as e:
+                print('one duck down')
+                problem = e
+                # raise
+            if problem:
+                raise problem
+                # print("Problem")
 
 
 if __name__ == '__main__':
     donald = Duck()
     donald.fly()
-
-
-    # percy = Penguin()
-    # test_duck(percy)

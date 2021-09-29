@@ -22,6 +22,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="RunManager" selected="Python.ducks">
@@ -91,8 +92,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.ducks" />
-        <item itemvalue="Python.main" />
         <item itemvalue="Python.html_doc" />
+        <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>
