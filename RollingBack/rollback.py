@@ -1,9 +1,26 @@
+import sqlite3
+
+db = sqlite3.connect("accounts.sqlite")
+db.execute("CREATE TABLE IF NOT EXISTS accounts (name TEXT PRIMARY KEY NOT NULL, balance INTEGER NOT NULL)")
+db.execute("CREATE TABLE IF NOT EXISTS transactions (time TIMESTAMP NOT NULL,"
+           "account TEXT NOT NULL, amount INTEGER NOT NULL, PRIMARY KEY (time, account))")
+
+
 class Account(object):
 
     def __init__(self, name: str, opening_balance: int = 0.0):
-        self.name = name
-        self._balance = opening_balance
-        print("Account created for {}. ".format(self.name), end='')
+        cursor = db.execute("SELECT name, balance FROM accounts WHERE (name = ?)", (name,))
+        row = cursor.fetchone()
+
+        if row:
+            self.name, self._balance = row
+            print("Retrieved record for {}. ".format(self.name), end='')
+        else:
+            self.name = name
+            self._balance = opening_balance
+            cursor.execute("INSERT INTO accounts VALUES(?, ?)", (name, opening_balance))
+            cursor.connection.commit()
+            print("Account created for {}. ".format(self.name), end='')
         self.show_balance()
 
     def deposit(self, amount: int) -> float:
@@ -24,6 +41,7 @@ class Account(object):
     def show_balance(self):
         print("Balance on account {} is {:.2f}".format(self.name, self._balance / 100))
 
+
 if __name__ == '__main__':
     jim = Account("Jim")
     jim.deposit(1010)
@@ -32,3 +50,9 @@ if __name__ == '__main__':
     jim.withdraw(30)
     jim.withdraw(0)
     jim.show_balance()
+
+    terry = Account("Terry")
+    graham = Account("Graham", 9000)
+    eric = Account("Eric", 7000)
+
+    db.close()
