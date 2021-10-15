@@ -2,7 +2,7 @@ import sqlite3
 
 db = sqlite3.connect("accounts.sqlite")
 db.execute("CREATE TABLE IF NOT EXISTS accounts (name TEXT PRIMARY KEY NOT NULL, balance INTEGER NOT NULL)")
-db.execute("CREATE TABLE IF NOT EXISTS transactions (time TIMESTAMP NOT NULL,"
+db.execute("CREATE TABLE IF NOT EXISTS history (time TIMESTAMP NOT NULL,"
            "account TEXT NOT NULL, amount INTEGER NOT NULL, PRIMARY KEY (time, account))")
 
 
@@ -43,16 +43,21 @@ class Account(object):
 
 
 if __name__ == '__main__':
-    jim = Account("Jim")
-    jim.deposit(1010)
-    jim.deposit(10)
-    jim.deposit(10)
-    jim.withdraw(30)
-    jim.withdraw(0)
-    jim.show_balance()
+    john = Account("John")
+    john.deposit(1010)
+    john.deposit(10)
+    john.deposit(10)
+    john.withdraw(30)
+    john.withdraw(0)
+    john.show_balance()
 
-    terry = Account("Terry")
+    terry = Account("TerryJ")
     graham = Account("Graham", 9000)
     eric = Account("Eric", 7000)
+    michael = Account("Michael")
+    terryG = Account("TerryG")
 
     db.close()
+
+# ALTER TABLE transactions RENAME TO history;
+# COMMIT;
