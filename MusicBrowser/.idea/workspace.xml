@@ -30,7 +30,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.challenge_star_args">
+  <component name="RunManager" selected="Python.star_args">
     <configuration name="challenge_star_args" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MusicBrowser" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -96,8 +96,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.challenge_star_args" />
         <item itemvalue="Python.star_args" />
+        <item itemvalue="Python.challenge_star_args" />
         <item itemvalue="Python.jukebox" />
       </list>
     </recent_temporary>
