@@ -27,6 +27,7 @@ class DataListBox(Scrollbox):
 
         self.linked_box = None
         self.link_field = None
+        self.link_value = None
 
         self.cursor = connection.cursor()
         self.table = table
@@ -47,18 +48,8 @@ class DataListBox(Scrollbox):
         self.linked_box = widget
         widget.link_field = link_field
 
-    # def requery(self, link_value=None):
-    #     if link_value and self.link_field:
-    #         sql = self.sql_select + " WHERE " + self.link_field + "=?" + self.sql_sort
-    #         print(sql)      # TODO delete this line
-    #         self.cursor.execute(sql, (link_value,))
-    #     else:
-    #         print(self.sql_select + self.sql_sort)      # TODO delete this line
-    #         self.cursor.execute(self.sql_select + self.sql_sort)
-
-
-    # Mine is below
     def requery(self, link_value=None):
+        self.link_value = link_value        # store the id, so we know the "master" record we're populated from
         if link_value and self.link_field:
             sql = self.sql_select + " WHERE " + self.link_field + "=?" + self.sql_sort
             print(sql)  # TODO delete this line
@@ -75,17 +66,6 @@ class DataListBox(Scrollbox):
         if self.linked_box:
             self.linked_box.clear()
 
-    # def on_select(self, event):
-    #     if self.linked_box:
-    #         print(self is event.widget)     # TODO delete this line
-    #         index = self.curselection()[0]
-    #         value = self.get(index),
-    #
-    #         # get the artist ID from the database row
-    #         link_id = self.cursor.execute(self.sql_select + " WHERE " + self.field + "=?", value).fetchone()[1]
-    #         self.linked_box.requery(link_id)
-
-    # mine is below
     def on_select(self, event):
         if self.linked_box:                 # checks to see if there is another list box before it tries to link to it
             print(self is event.widget)     # TODO delete this line
@@ -93,7 +73,15 @@ class DataListBox(Scrollbox):
             value = self.get(index),
 
             # get the artist ID from the database row
-            link_id = self.cursor.execute(self.sql_select + " WHERE " + self.field + "=?", value).fetchone()[1]
+            # Make sure we're getting the correct one, by including the link_value if appropriate
+            if self.link_value:
+                value = value[0], self.link_value
+                sql_where = " WHERE " + self.field + "=? AND " + self.link_field + "=?"
+            else:
+                sql_where = " WHERE " + self.field + "=?"
+
+            link_id = self.cursor.execute(self.sql_select + sql_where, value).fetchone()[1]
+            # SELECT name, _id FROM albums WHERE name = 'Greatest Hits'
             self.linked_box.requery(link_id)
 
 
